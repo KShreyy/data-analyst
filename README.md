@@ -4,7 +4,7 @@ Three end-to-end data analysis projects covering SQL, Python, statistical testin
 
 ---
 
-## 1. [Retail Sales Performance & Customer Segmentation](./project1_retail_customer_segmentation)
+## 1. [Retail Sales Performance & Customer Segmentation](./PROJEC~1)
 
 **Skills:** SQL (CTEs, window functions) · Python (Pandas, NumPy) · RFM Segmentation · A/B Testing (two-proportion z-test) · Tableau
 
@@ -14,11 +14,11 @@ Segmented 5,000+ customers by Recency/Frequency/Monetary value and ran an A/B te
 - Top 20% of customers drive ~62% of total revenue
 - Tiered-discount campaign significantly outperformed flat-discount campaign (p < 0.01)
 
-![Revenue concentration](./project1_retail_customer_segmentation/figures/04_pareto_curve.png)
+![Revenue concentration](./PROJEC~1/figures/04_pareto_curve.png)
 
 ---
 
-## 2. [HR Attrition & Workforce Analytics Dashboard](./project2_hr_attrition_dashboard)
+## 2. [HR Attrition & Workforce Analytics Dashboard](./PROJEC~2)
 
 **Skills:** SQL · Python (Pandas, NumPy) · Chi-Square Test of Independence · Correlation Analysis · Power BI
 
@@ -28,11 +28,11 @@ Analyzed 1,470 employees to find what actually drives voluntary attrition.
 - High-attrition departments average a 12.6-month promotion gap vs. 8.1 months company-wide
 - Overtime is strongly linked to attrition (χ² = 76.3, p < 0.001)
 
-![Attrition by department](./project2_hr_attrition_dashboard/figures/02_attrition_by_department.png)
+![Attrition by department](./PROJEC~2/figures/02_attrition_by_department.png)
 
 ---
 
-## 3. [NIFTY 50 Sector Performance & Market Trend Analysis](./project3_nifty50_sector_analysis)
+## 3. [NIFTY 50 Sector Performance & Market Trend Analysis](./PROJEC~3)
 
 **Skills:** Python (Pandas, NumPy) · SQL (rolling window functions) · Time-Series Analysis · Correlation Matrices · Tableau
 
@@ -42,9 +42,8 @@ Analyzed 1,470 employees to find what actually drives voluntary attrition.
 - IT and FMCG were the top defensive sectors during both market corrections
 - Full 13×13 sector correlation matrix identifies diversification opportunities
 
-![Sector momentum during corrections](./project3_nifty50_sector_analysis/figures/03_defensive_sector_momentum.png)
+![Sector momentum during corrections](./PROJEC~3/figures/03_defensive_sector_momentum.png)
 
 ---
 
 *Each project folder contains the full dataset, SQL scripts, Python analysis code, all chart figures, and a detailed README.*
-
