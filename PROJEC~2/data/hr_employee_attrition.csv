@@ -1,0 +1,1471 @@
+employee_id,business_unit,job_role,age,gender,marital_status,education_field,distance_from_home_km,years_at_company,total_working_years,months_since_last_promotion,overtime,job_satisfaction,work_life_balance,performance_rating,stock_option_level,monthly_income,attrition
+1,Finance,Senior Analyst,39,Female,Married,Human Resources,19,3,5,7,No,4,1,3,0,101900,No
+2,Operations,Manager,21,Male,Married,Human Resources,26,0,8,14,No,4,4,4,3,123100,No
+3,Customer Support,Analyst,23,Male,Married,Technical Degree,20,16,20,12,Yes,4,4,3,0,76100,No
+4,Sales-West,Analyst,48,Female,Married,Business,21,0,3,7,No,3,2,4,1,56900,No
+5,R&D-Core,Associate,47,Male,Divorced,Marketing,5,7,15,4,No,4,3,4,1,56800,No
+6,Customer Support,Associate,31,Male,Married,Business,13,0,6,12,No,3,3,3,1,40400,No
+7,Sales-East,Analyst,38,Female,Married,Other,12,5,7,16,Yes,2,3,3,1,73700,Yes
+8,Customer Support,Analyst,51,Female,Divorced,Life Sciences,20,15,19,11,No,1,3,4,3,90100,Yes
+9,Customer Support,Analyst,47,Female,Single,Business,6,12,20,9,Yes,4,2,3,0,78800,No
+10,R&D-Platform,Senior Analyst,40,Male,Divorced,Other,3,1,10,11,Yes,1,3,4,1,91500,No
+11,R&D-Core,Analyst,54,Female,Married,Technical Degree,10,3,8,20,Yes,4,2,3,0,62700,No
+12,Sales-West,Analyst,41,Male,Married,Life Sciences,12,0,0,1,No,4,4,3,2,61500,Yes
+13,Sales-West,Representative,21,Male,Divorced,Life Sciences,5,2,10,12,No,2,4,3,1,32900,No
+14,R&D-Platform,Associate,38,Male,Married,Technical Degree,25,15,23,16,No,4,2,3,0,75800,No
+15,R&D-Platform,Manager,30,Female,Divorced,Technical Degree,19,5,5,3,No,3,3,3,0,133900,No
+16,HR,Analyst,47,Female,Divorced,Human Resources,14,0,0,3,No,4,3,3,1,68000,No
+17,Operations,Manager,25,Male,Single,Marketing,14,3,5,11,Yes,4,2,3,2,162900,No
+18,Customer Support,Analyst,59,Male,Married,Business,17,1,9,17,No,1,4,3,0,73000,No
+19,Finance,Associate,44,Female,Married,Life Sciences,5,0,0,5,Yes,2,3,3,0,44900,Yes
+20,Operations,Associate,52,Female,Single,Life Sciences,17,3,3,8,Yes,4,3,3,1,50000,No
+21,Sales-West,Manager,38,Male,Married,Life Sciences,4,13,22,2,No,3,2,3,0,166100,No
+22,Sales-West,Analyst,23,Male,Divorced,Business,28,5,11,9,No,1,3,3,0,71500,Yes
+23,HR,Senior Analyst,38,Male,Single,Marketing,28,4,7,6,No,3,1,3,1,86300,No
+24,Sales-East,Analyst,40,Female,Single,Technical Degree,6,1,2,12,No,2,4,3,0,49000,No
+25,Sales-East,Associate,37,Male,Single,Business,6,3,12,10,Yes,3,4,3,1,50900,Yes
+26,R&D-Platform,Associate,30,Male,Married,Life Sciences,20,6,13,13,No,1,3,3,0,53400,Yes
+27,R&D-Platform,Senior Analyst,29,Male,Single,Business,19,1,9,6,No,3,4,4,2,103000,No
+28,Operations,Analyst,24,Male,Married,Marketing,14,5,7,16,No,4,4,3,2,83300,No
+29,Finance,Senior Analyst,40,Male,Divorced,Life Sciences,25,2,10,13,Yes,3,3,3,1,76100,No
+30,R&D-Platform,Representative,28,Male,Married,Human Resources,7,8,8,9,No,2,1,3,2,38800,Yes
+31,R&D-Platform,Representative,45,Female,Married,Technical Degree,26,6,10,4,No,4,4,3,1,45000,Yes
+32,Sales-West,Executive,30,Male,Single,Life Sciences,2,10,18,15,No,3,3,4,0,265700,No
+33,Sales-East,Analyst,37,Female,Single,Human Resources,26,2,5,11,No,4,3,3,1,64600,No
+34,Sales-West,Associate,58,Female,Divorced,Other,18,0,5,4,Yes,4,3,3,2,45300,No
+35,Finance,Senior Analyst,41,Male,Married,Marketing,2,0,5,13,No,2,3,3,1,67100,No
+36,Sales-West,Executive,50,Male,Divorced,Life Sciences,6,2,10,1,No,4,3,3,2,240900,No
+37,R&D-Core,Executive,47,Male,Married,Human Resources,29,1,6,5,No,1,3,3,0,170700,No
+38,Sales-East,Associate,54,Female,Married,Marketing,17,14,21,17,No,2,2,3,1,68100,No
+39,Customer Support,Executive,23,Female,Married,Business,17,1,6,15,Yes,3,1,3,1,192800,No
+40,Sales-East,Senior Analyst,48,Female,Single,Marketing,13,7,7,14,No,1,3,3,1,92400,No
+41,Sales-West,Associate,30,Male,Single,Marketing,23,10,14,12,Yes,2,1,3,0,64300,Yes
+42,Operations,Manager,33,Female,Married,Life Sciences,12,2,2,10,No,4,3,4,0,148600,No
+43,R&D-Platform,Associate,56,Female,Single,Life Sciences,5,2,10,4,No,2,4,4,0,47500,No
+44,Customer Support,Analyst,36,Male,Single,Other,26,2,9,20,No,4,4,3,0,64700,No
+45,Finance,Senior Analyst,41,Female,Single,Business,6,2,7,13,No,4,3,3,0,97000,No
+46,Customer Support,Analyst,38,Male,Single,Other,3,1,9,11,No,3,3,3,0,68800,No
+47,Sales-East,Senior Analyst,25,Female,Married,Life Sciences,26,1,8,17,No,4,3,3,0,96300,Yes
+48,HR,Associate,32,Female,Single,Other,17,9,10,11,Yes,2,3,3,1,51400,No
+49,R&D-Platform,Analyst,26,Female,Married,Human Resources,21,3,7,8,No,1,4,3,3,58500,No
+50,Customer Support,Senior Analyst,37,Male,Married,Marketing,13,6,14,6,Yes,4,4,3,0,94000,No
+51,R&D-Core,Manager,21,Female,Married,Human Resources,22,16,21,9,Yes,2,2,4,0,122900,No
+52,HR,Analyst,51,Male,Single,Business,5,1,1,6,Yes,2,3,3,1,52500,Yes
+53,Sales-East,Representative,41,Male,Divorced,Technical Degree,22,1,8,15,Yes,3,3,3,1,35300,No
+54,R&D-Core,Representative,23,Male,Married,Technical Degree,12,1,8,6,Yes,4,3,4,0,33300,Yes
+55,R&D-Core,Manager,59,Male,Divorced,Other,28,0,1,13,Yes,3,3,3,2,108500,Yes
+56,Sales-East,Senior Analyst,31,Female,Single,Marketing,26,0,6,16,Yes,4,2,3,0,93700,Yes
+57,Customer Support,Analyst,34,Male,Single,Business,17,1,7,12,Yes,2,2,3,1,64200,Yes
+58,R&D-Core,Analyst,39,Male,Single,Business,6,9,12,1,No,4,4,3,1,83400,No
+59,Operations,Manager,41,Male,Divorced,Life Sciences,18,1,1,11,Yes,4,3,3,3,121300,No
+60,HR,Manager,47,Female,Married,Life Sciences,20,0,3,15,No,3,2,3,0,114300,No
+61,HR,Analyst,41,Male,Divorced,Life Sciences,28,4,9,18,No,3,4,3,1,60600,No
+62,Finance,Associate,46,Male,Married,Life Sciences,8,4,7,10,No,3,3,3,2,51800,No
+63,Finance,Associate,33,Female,Single,Technical Degree,18,7,11,7,Yes,2,3,3,3,43200,No
+64,Sales-East,Associate,49,Female,Married,Other,16,2,6,14,No,2,3,3,1,43000,Yes
+65,R&D-Platform,Associate,54,Female,Married,Business,20,4,8,2,Yes,4,3,3,2,53800,No
+66,Sales-West,Executive,25,Female,Married,Technical Degree,16,0,5,3,No,1,2,3,0,197600,No
+67,R&D-Core,Senior Analyst,25,Male,Married,Business,4,3,8,11,Yes,3,2,3,1,92000,No
+68,Sales-East,Senior Analyst,28,Female,Single,Business,3,13,14,11,No,3,3,3,0,102600,No
+69,Operations,Senior Analyst,33,Female,Divorced,Life Sciences,22,1,6,16,No,4,3,3,1,93300,No
+70,Sales-West,Senior Analyst,33,Female,Married,Technical Degree,24,2,2,9,No,3,3,3,1,82500,No
+71,Finance,Analyst,51,Female,Married,Business,29,0,3,14,No,2,4,3,0,59200,No
+72,R&D-Core,Senior Analyst,31,Male,Married,Life Sciences,11,5,10,13,No,3,2,3,2,87000,No
+73,Customer Support,Executive,55,Male,Single,Human Resources,6,1,1,16,Yes,1,2,3,2,224200,No
+74,Finance,Associate,50,Female,Married,Technical Degree,7,1,2,8,Yes,2,1,3,0,54300,No
+75,Sales-East,Representative,57,Female,Married,Technical Degree,4,0,1,19,No,4,4,3,2,31600,No
+76,Customer Support,Analyst,59,Male,Married,Marketing,7,8,8,17,No,2,3,3,1,64500,No
+77,Operations,Senior Analyst,23,Male,Single,Human Resources,14,5,7,11,No,2,3,3,2,97200,Yes
+78,Operations,Analyst,47,Male,Single,Life Sciences,29,2,4,14,No,4,3,3,0,68200,No
+79,HR,Representative,54,Male,Divorced,Business,7,1,6,13,No,2,1,4,0,41200,Yes
+80,Sales-East,Analyst,22,Female,Married,Life Sciences,28,3,4,24,No,3,4,3,1,65000,No
+81,Sales-West,Associate,27,Male,Married,Technical Degree,10,1,2,7,No,4,4,3,2,39800,No
+82,Operations,Associate,32,Female,Married,Technical Degree,14,2,10,9,Yes,1,2,4,0,49300,No
+83,HR,Representative,29,Male,Divorced,Other,25,2,6,17,No,3,2,3,1,38200,No
+84,Sales-West,Analyst,52,Male,Single,Marketing,8,0,2,3,No,4,4,3,0,49100,No
+85,Operations,Manager,26,Male,Divorced,Life Sciences,26,3,9,13,No,4,3,3,1,126900,No
+86,Finance,Analyst,57,Female,Single,Technical Degree,21,12,18,8,No,3,2,4,1,78800,No
+87,HR,Representative,34,Male,Married,Other,7,3,9,5,No,4,4,3,0,33900,No
+88,R&D-Core,Manager,44,Male,Single,Other,2,3,3,19,No,1,4,3,2,134200,Yes
+89,R&D-Core,Manager,36,Female,Single,Life Sciences,1,0,5,5,No,1,3,3,2,134500,No
+90,Sales-West,Manager,34,Female,Married,Business,25,1,7,1,No,1,3,3,0,138000,Yes
+91,Sales-East,Manager,54,Male,Married,Other,4,3,3,13,No,4,3,3,0,117500,No
+92,Customer Support,Manager,34,Female,Married,Business,1,7,16,13,No,2,2,3,0,135500,Yes
+93,R&D-Platform,Associate,59,Male,Married,Other,24,6,14,8,No,4,3,3,0,57300,No
+94,HR,Analyst,45,Female,Divorced,Marketing,2,9,16,8,Yes,1,3,3,0,73300,No
+95,R&D-Core,Associate,35,Male,Single,Life Sciences,16,11,13,5,No,4,4,3,0,57500,No
+96,Customer Support,Analyst,54,Female,Single,Business,10,13,20,12,No,4,2,3,0,104500,No
+97,Sales-East,Senior Analyst,31,Male,Married,Business,19,2,6,11,No,4,3,3,0,63700,No
+98,R&D-Core,Associate,34,Female,Married,Business,14,7,11,3,Yes,4,1,3,1,50400,Yes
+99,Sales-East,Manager,55,Male,Single,Life Sciences,18,4,9,10,No,3,3,4,1,121500,No
+100,Sales-East,Senior Analyst,28,Male,Married,Human Resources,1,6,10,13,Yes,4,1,4,0,99700,No
+101,Operations,Analyst,55,Female,Married,Human Resources,13,3,9,15,No,4,2,3,1,78200,Yes
+102,Finance,Associate,21,Male,Divorced,Marketing,9,13,22,6,No,1,3,3,1,61500,No
+103,R&D-Core,Associate,21,Male,Divorced,Technical Degree,23,0,9,3,No,1,3,3,0,43500,No
+104,R&D-Platform,Analyst,26,Male,Divorced,Marketing,29,5,7,4,No,4,2,3,2,70300,No
+105,Customer Support,Analyst,44,Female,Married,Human Resources,11,6,14,10,No,3,3,3,0,68300,Yes
+106,R&D-Core,Senior Analyst,54,Male,Divorced,Technical Degree,23,6,11,4,Yes,2,1,3,1,104700,No
+107,HR,Analyst,53,Male,Married,Other,7,0,1,20,No,3,2,4,1,77500,No
+108,Finance,Associate,45,Male,Single,Marketing,2,2,9,11,No,3,4,3,0,43900,No
+109,R&D-Core,Analyst,45,Male,Divorced,Human Resources,22,7,10,6,No,2,2,3,0,70900,Yes
+110,R&D-Platform,Associate,59,Female,Single,Other,26,5,8,0,No,1,3,3,0,51300,No
+111,Customer Support,Analyst,58,Male,Married,Life Sciences,26,8,12,19,Yes,4,3,3,2,56500,No
+112,Operations,Analyst,23,Female,Married,Technical Degree,14,1,5,15,No,3,3,4,2,66100,No
+113,Sales-East,Analyst,42,Female,Divorced,Technical Degree,26,10,15,22,Yes,1,3,3,2,77500,No
+114,Operations,Manager,35,Female,Married,Business,29,5,5,20,No,4,2,3,0,107000,No
+115,Sales-East,Senior Analyst,26,Male,Divorced,Life Sciences,4,2,6,12,Yes,4,2,3,0,87300,Yes
+116,Customer Support,Manager,52,Male,Single,Other,10,14,20,14,Yes,3,2,3,1,173600,No
+117,Customer Support,Analyst,42,Male,Single,Life Sciences,2,3,9,4,Yes,4,2,3,0,58700,No
+118,Sales-East,Analyst,46,Male,Single,Human Resources,9,6,7,13,Yes,1,2,3,0,79600,No
+119,R&D-Core,Associate,41,Male,Married,Human Resources,9,24,27,6,No,4,2,3,1,72100,No
+120,Customer Support,Senior Analyst,23,Female,Married,Life Sciences,20,4,6,13,No,4,4,3,0,78900,No
+121,Sales-East,Senior Analyst,54,Female,Single,Technical Degree,26,0,0,10,No,4,3,3,1,92800,No
+122,Finance,Manager,36,Male,Single,Marketing,15,5,7,5,No,2,3,3,1,135800,No
+123,Customer Support,Analyst,29,Male,Married,Business,2,7,7,10,No,3,3,3,0,73800,No
+124,R&D-Platform,Analyst,45,Female,Married,Other,9,2,9,12,No,3,3,3,2,51900,No
+125,Finance,Senior Analyst,32,Male,Married,Human Resources,18,1,10,3,No,3,3,4,0,73700,No
+126,Sales-West,Senior Analyst,47,Male,Married,Life Sciences,16,12,15,2,No,4,3,3,1,102200,No
+127,Sales-West,Representative,40,Female,Divorced,Marketing,17,6,9,22,No,4,2,3,1,40600,Yes
+128,R&D-Core,Analyst,38,Female,Married,Marketing,19,2,11,6,No,3,4,3,2,62600,No
+129,Sales-West,Representative,24,Female,Married,Technical Degree,29,2,7,15,Yes,4,3,3,0,43000,No
+130,R&D-Core,Senior Analyst,28,Female,Married,Human Resources,10,2,9,14,No,1,3,4,0,106000,No
+131,Operations,Senior Analyst,54,Male,Single,Business,21,6,8,8,Yes,2,4,3,1,101800,No
+132,HR,Associate,58,Male,Single,Other,24,10,19,7,No,1,3,3,2,57900,No
+133,R&D-Core,Representative,42,Female,Married,Other,29,6,7,4,No,2,3,3,0,50300,No
+134,Sales-West,Manager,39,Male,Married,Business,22,2,8,11,No,2,4,3,1,128000,No
+135,Operations,Associate,28,Female,Single,Human Resources,1,3,9,27,Yes,3,1,3,0,54700,No
+136,R&D-Platform,Analyst,48,Male,Married,Business,22,1,3,11,No,2,3,3,0,58400,No
+137,Operations,Representative,46,Male,Single,Business,26,5,13,7,Yes,1,2,3,2,39800,Yes
+138,R&D-Platform,Representative,41,Female,Divorced,Business,20,1,4,21,No,1,3,4,2,34900,No
+139,R&D-Platform,Analyst,31,Male,Married,Marketing,26,6,12,6,No,3,2,4,1,65200,No
+140,Operations,Representative,24,Female,Single,Technical Degree,7,2,5,20,Yes,3,4,3,0,38700,No
+141,Customer Support,Manager,58,Female,Married,Business,24,3,3,12,No,2,3,3,1,118400,No
+142,HR,Analyst,30,Female,Single,Life Sciences,21,4,6,8,No,3,1,3,1,66400,Yes
+143,R&D-Core,Analyst,46,Female,Single,Technical Degree,11,3,5,15,No,4,4,3,0,68500,No
+144,Customer Support,Senior Analyst,23,Female,Married,Human Resources,6,3,7,23,No,3,2,3,2,115000,No
+145,R&D-Core,Analyst,47,Female,Single,Business,11,4,7,10,No,3,1,3,3,52500,No
+146,Operations,Associate,28,Female,Single,Life Sciences,5,9,16,19,No,3,4,3,0,57600,No
+147,Sales-East,Manager,48,Female,Married,Human Resources,19,2,6,10,Yes,4,1,3,0,136800,No
+148,R&D-Core,Analyst,28,Male,Married,Business,15,5,10,6,No,2,2,3,0,66300,Yes
+149,R&D-Platform,Analyst,40,Male,Married,Technical Degree,12,2,10,6,Yes,3,2,3,1,69900,No
+150,Operations,Senior Analyst,37,Male,Married,Life Sciences,5,15,16,8,No,4,3,3,2,130700,No
+151,Sales-West,Analyst,40,Male,Married,Human Resources,14,10,16,12,No,3,4,3,3,82400,No
+152,Customer Support,Senior Analyst,33,Male,Single,Life Sciences,4,1,8,8,No,2,1,3,2,83300,No
+153,Finance,Analyst,34,Female,Married,Technical Degree,19,13,19,4,No,3,4,3,1,81300,No
+154,Finance,Analyst,35,Male,Married,Other,18,2,11,6,Yes,2,2,4,0,61900,Yes
+155,Finance,Associate,45,Male,Married,Technical Degree,19,0,1,7,Yes,3,3,3,0,39900,No
+156,Operations,Representative,52,Female,Divorced,Marketing,29,8,12,8,Yes,4,3,3,0,44300,No
+157,R&D-Core,Representative,35,Male,Single,Business,5,1,9,5,No,4,4,3,1,31700,No
+158,R&D-Core,Analyst,21,Male,Single,Human Resources,2,9,10,1,No,1,2,3,0,68100,No
+159,Sales-West,Senior Analyst,28,Female,Married,Human Resources,1,1,9,15,No,4,3,4,2,73600,No
+160,Sales-East,Senior Analyst,25,Female,Married,Life Sciences,13,1,8,15,No,4,3,3,1,98600,No
+161,Sales-West,Associate,45,Male,Divorced,Human Resources,4,15,15,13,No,3,1,4,2,61000,No
+162,Operations,Associate,52,Male,Married,Other,3,1,6,9,No,2,4,3,1,41600,Yes
+163,Customer Support,Associate,29,Male,Married,Business,23,1,7,10,Yes,4,3,3,1,50600,No
+164,Sales-East,Associate,41,Female,Married,Life Sciences,16,9,17,16,Yes,1,3,3,0,54400,No
+165,HR,Analyst,39,Female,Divorced,Life Sciences,14,0,1,8,No,4,3,3,2,62300,No
+166,R&D-Platform,Representative,38,Male,Single,Business,17,6,12,10,No,2,2,3,2,40500,No
+167,HR,Analyst,55,Female,Married,Other,29,1,8,9,Yes,3,2,3,0,64300,Yes
+168,Finance,Analyst,31,Male,Married,Other,15,2,10,8,No,4,3,3,0,65000,No
+169,R&D-Core,Associate,45,Female,Married,Life Sciences,17,7,12,10,No,4,4,3,0,41000,No
+170,Operations,Analyst,42,Male,Single,Marketing,2,10,10,10,Yes,4,4,3,1,91100,Yes
+171,R&D-Platform,Associate,55,Male,Married,Human Resources,27,4,6,5,No,1,3,3,1,56200,Yes
+172,Finance,Representative,29,Male,Single,Life Sciences,21,17,23,7,Yes,4,2,3,0,44000,Yes
+173,Finance,Analyst,57,Male,Married,Technical Degree,21,0,7,0,No,4,2,3,1,66100,No
+174,Sales-West,Associate,54,Female,Married,Life Sciences,15,2,8,4,Yes,1,2,4,0,46500,Yes
+175,Sales-East,Senior Analyst,38,Female,Divorced,Marketing,1,11,20,10,Yes,2,3,3,3,114500,Yes
+176,R&D-Core,Analyst,53,Female,Single,Life Sciences,17,1,8,9,No,4,3,3,3,70900,No
+177,Customer Support,Representative,46,Female,Single,Human Resources,5,0,0,13,Yes,3,3,3,0,39000,No
+178,Customer Support,Representative,33,Male,Married,Business,20,1,3,18,Yes,1,2,3,1,40100,Yes
+179,Finance,Representative,54,Male,Divorced,Marketing,4,2,3,7,No,4,3,4,1,45600,No
+180,Sales-East,Associate,21,Female,Single,Human Resources,27,0,5,9,Yes,4,4,4,0,50600,Yes
+181,Operations,Associate,26,Female,Married,Human Resources,22,0,0,10,No,1,4,3,0,41900,No
+182,Customer Support,Representative,55,Male,Single,Other,13,11,13,11,Yes,4,2,4,3,39700,No
+183,Customer Support,Analyst,51,Female,Married,Life Sciences,5,12,12,15,No,3,3,3,0,89400,No
+184,R&D-Platform,Senior Analyst,32,Female,Single,Human Resources,27,1,8,16,No,3,2,3,2,70400,No
+185,Operations,Executive,59,Female,Married,Business,25,3,11,9,Yes,1,4,3,1,188300,Yes
+186,Sales-East,Associate,46,Male,Married,Human Resources,6,9,9,15,Yes,4,3,3,1,54800,No
+187,Sales-East,Associate,30,Female,Married,Human Resources,8,1,7,20,Yes,4,1,4,1,42600,Yes
+188,Sales-East,Associate,54,Male,Single,Marketing,14,6,7,12,No,1,4,3,2,61300,No
+189,Sales-West,Analyst,59,Male,Single,Other,22,1,10,11,No,4,3,4,0,64100,No
+190,Sales-West,Analyst,52,Male,Single,Marketing,6,2,11,12,No,2,1,3,0,62000,No
+191,Sales-West,Associate,45,Male,Single,Other,29,6,11,9,No,1,4,3,0,58500,No
+192,HR,Analyst,54,Male,Single,Other,11,14,21,11,Yes,3,1,3,0,81200,No
+193,Sales-East,Analyst,52,Female,Single,Human Resources,18,0,7,13,No,4,4,3,0,68200,No
+194,HR,Senior Analyst,40,Female,Married,Other,27,3,5,1,No,3,4,3,3,114300,No
+195,Sales-West,Analyst,50,Female,Married,Marketing,4,2,5,2,No,1,3,3,0,62700,No
+196,Finance,Analyst,53,Male,Divorced,Technical Degree,29,1,4,6,No,4,3,3,0,60600,No
+197,Sales-East,Analyst,22,Male,Married,Business,11,2,11,11,No,3,3,4,2,72000,No
+198,R&D-Core,Senior Analyst,38,Male,Married,Business,14,3,7,13,Yes,3,3,3,2,71900,Yes
+199,Operations,Manager,57,Female,Married,Business,3,4,6,15,Yes,3,4,3,0,115100,No
+200,R&D-Platform,Analyst,31,Male,Divorced,Business,9,10,12,7,Yes,4,3,3,0,68800,Yes
+201,Customer Support,Manager,44,Male,Married,Marketing,24,4,4,17,Yes,3,3,3,1,109600,No
+202,Finance,Associate,39,Male,Single,Marketing,10,4,5,8,Yes,4,4,3,0,50400,Yes
+203,HR,Manager,43,Female,Married,Life Sciences,28,4,8,4,No,4,2,3,2,138900,Yes
+204,Sales-West,Associate,34,Female,Single,Marketing,27,18,27,4,Yes,3,3,3,0,69100,No
+205,HR,Senior Analyst,45,Female,Married,Human Resources,16,11,16,7,No,4,2,4,0,112700,No
+206,Sales-East,Representative,50,Male,Single,Business,13,9,11,10,Yes,2,4,3,1,49100,No
+207,Customer Support,Senior Analyst,49,Male,Married,Marketing,5,3,3,12,No,2,2,3,0,104000,No
+208,Operations,Manager,53,Female,Single,Other,6,5,12,20,Yes,4,3,3,0,157600,Yes
+209,Customer Support,Associate,30,Female,Divorced,Other,27,1,7,5,Yes,3,2,3,0,45600,Yes
+210,Sales-East,Associate,26,Female,Single,Other,25,3,10,13,No,4,1,3,1,49100,Yes
+211,R&D-Core,Senior Analyst,42,Male,Married,Human Resources,1,6,6,24,No,2,3,3,0,117100,No
+212,R&D-Core,Analyst,27,Male,Married,Technical Degree,15,7,14,10,No,2,1,3,2,76000,No
+213,Sales-East,Analyst,45,Male,Single,Human Resources,29,0,2,14,Yes,3,2,3,3,69000,Yes
+214,Finance,Senior Analyst,35,Female,Married,Life Sciences,13,1,4,6,No,4,3,3,1,82800,No
+215,Customer Support,Senior Analyst,49,Female,Married,Human Resources,18,13,22,12,Yes,3,3,3,0,117500,Yes
+216,R&D-Core,Analyst,39,Male,Single,Marketing,27,0,2,18,No,2,3,3,0,55600,No
+217,Customer Support,Senior Analyst,42,Female,Single,Life Sciences,3,2,8,21,Yes,3,1,3,3,89900,No
+218,Customer Support,Manager,58,Male,Single,Life Sciences,22,6,12,19,No,4,3,3,0,148500,No
+219,Sales-East,Representative,45,Male,Married,Life Sciences,16,7,8,19,Yes,1,3,4,1,40200,Yes
+220,Customer Support,Manager,57,Male,Single,Other,1,4,13,14,Yes,4,2,3,0,164500,No
+221,Operations,Representative,30,Male,Single,Marketing,20,0,3,13,No,3,2,3,2,29100,No
+222,Sales-West,Associate,58,Male,Single,Marketing,29,3,6,1,Yes,4,3,3,1,53900,Yes
+223,HR,Analyst,29,Male,Divorced,Technical Degree,20,4,5,4,No,4,3,3,1,58800,No
+224,Finance,Associate,49,Male,Married,Other,14,18,20,3,No,4,3,3,1,71600,No
+225,HR,Manager,22,Male,Married,Life Sciences,10,11,16,6,No,1,4,3,0,145500,No
+226,Sales-East,Analyst,47,Male,Married,Marketing,6,4,9,7,Yes,3,4,4,0,67700,No
+227,Finance,Senior Analyst,55,Female,Divorced,Human Resources,20,16,18,9,Yes,1,3,3,2,126800,Yes
+228,Finance,Senior Analyst,31,Male,Married,Other,27,8,9,16,No,2,3,3,1,95700,Yes
+229,Customer Support,Representative,27,Male,Married,Human Resources,8,7,16,20,No,2,1,4,1,36400,No
+230,Customer Support,Executive,35,Female,Single,Technical Degree,13,1,4,6,Yes,3,3,3,0,170200,No
+231,R&D-Core,Associate,23,Male,Married,Other,22,1,5,1,No,2,2,3,3,46400,No
+232,Finance,Manager,21,Male,Divorced,Other,20,1,8,6,No,2,3,3,1,135000,No
+233,Customer Support,Associate,37,Male,Married,Other,17,4,13,14,No,4,2,3,0,59600,Yes
+234,Operations,Senior Analyst,53,Male,Married,Human Resources,22,20,22,11,No,4,3,4,0,109200,No
+235,Sales-West,Analyst,36,Female,Divorced,Marketing,29,2,5,8,No,4,2,4,1,66900,Yes
+236,Sales-East,Representative,31,Female,Single,Business,6,7,11,11,No,4,2,3,3,40100,No
+237,Finance,Associate,29,Male,Single,Human Resources,3,4,4,4,No,2,1,3,2,50400,No
+238,Sales-West,Manager,24,Female,Married,Life Sciences,29,2,8,18,No,1,3,3,0,131800,No
+239,HR,Senior Analyst,36,Male,Divorced,Other,7,0,8,9,No,1,2,3,1,92600,No
+240,Operations,Analyst,33,Female,Single,Life Sciences,17,11,12,14,No,3,2,3,2,83500,No
+241,R&D-Core,Associate,38,Male,Single,Business,25,3,6,5,No,4,2,3,0,48900,No
+242,Sales-West,Executive,33,Male,Single,Technical Degree,2,1,2,13,No,3,2,3,2,218300,No
+243,R&D-Platform,Associate,44,Female,Married,Marketing,20,1,3,7,Yes,3,1,3,3,47800,No
+244,Finance,Associate,49,Female,Single,Other,16,3,12,10,Yes,4,2,3,0,49000,Yes
+245,Sales-East,Representative,21,Female,Married,Human Resources,18,3,8,11,Yes,3,3,3,0,43100,No
+246,R&D-Core,Senior Analyst,21,Male,Married,Other,1,21,29,4,No,2,3,3,0,120400,No
+247,Sales-East,Senior Analyst,31,Female,Single,Marketing,20,6,9,13,Yes,4,3,3,2,89500,No
+248,Finance,Associate,29,Male,Divorced,Business,29,4,12,1,No,1,3,4,1,58700,Yes
+249,Customer Support,Analyst,24,Female,Single,Business,24,1,5,17,Yes,3,3,3,0,60400,No
+250,R&D-Core,Senior Analyst,55,Female,Married,Human Resources,20,11,16,13,No,2,3,3,0,90000,No
+251,R&D-Core,Executive,24,Male,Married,Marketing,4,3,3,16,No,2,4,3,2,213900,No
+252,R&D-Platform,Senior Analyst,54,Female,Married,Life Sciences,12,1,6,18,Yes,4,1,3,1,99500,Yes
+253,Sales-West,Associate,23,Female,Married,Technical Degree,10,2,2,1,No,3,2,3,0,43400,No
+254,Sales-West,Associate,45,Female,Single,Other,24,1,2,7,No,3,1,3,0,39400,No
+255,R&D-Core,Senior Analyst,35,Male,Married,Marketing,19,11,15,5,Yes,1,3,3,0,112300,No
+256,R&D-Platform,Representative,42,Male,Single,Human Resources,24,9,11,8,No,4,4,3,2,46200,No
+257,Sales-East,Analyst,41,Male,Married,Business,11,0,0,11,Yes,3,3,4,1,55900,No
+258,Customer Support,Analyst,29,Female,Single,Human Resources,21,1,2,14,No,1,4,4,0,55300,No
+259,HR,Analyst,24,Female,Married,Technical Degree,11,3,3,3,No,3,3,3,0,69200,Yes
+260,R&D-Core,Analyst,55,Male,Married,Other,7,2,7,12,No,1,1,3,0,67400,Yes
+261,Sales-East,Senior Analyst,49,Female,Divorced,Technical Degree,12,0,7,11,No,4,1,3,1,69500,Yes
+262,Customer Support,Associate,50,Female,Single,Marketing,3,1,5,14,No,3,3,3,1,40400,No
+263,Sales-East,Analyst,45,Male,Divorced,Other,26,1,2,26,No,2,4,3,0,59400,No
+264,Sales-East,Senior Analyst,41,Female,Married,Human Resources,25,1,2,14,Yes,2,2,3,0,81200,No
+265,Sales-East,Analyst,54,Male,Single,Life Sciences,11,4,9,11,Yes,2,4,3,0,68700,Yes
+266,Sales-East,Representative,27,Male,Single,Business,26,1,1,20,No,2,3,4,0,38100,Yes
+267,Operations,Analyst,44,Male,Divorced,Marketing,9,1,3,18,No,3,2,3,0,74700,No
+268,Sales-West,Manager,29,Female,Single,Business,11,1,6,5,No,2,2,4,1,128500,Yes
+269,R&D-Core,Analyst,46,Male,Single,Other,5,7,7,6,No,3,4,3,0,80100,No
+270,Customer Support,Analyst,35,Male,Married,Life Sciences,12,1,2,15,No,4,4,3,2,50700,Yes
+271,HR,Executive,37,Male,Married,Life Sciences,15,9,16,17,Yes,4,3,3,1,210200,No
+272,Sales-West,Representative,33,Female,Divorced,Business,12,8,8,6,No,3,4,3,0,48500,No
+273,R&D-Platform,Representative,44,Male,Married,Technical Degree,27,2,5,9,No,3,3,3,1,30900,Yes
+274,Operations,Manager,23,Female,Single,Other,9,4,6,10,No,2,4,3,0,154600,No
+275,R&D-Core,Analyst,51,Female,Single,Business,17,4,9,2,Yes,2,3,3,0,71300,No
+276,Finance,Senior Analyst,36,Female,Single,Human Resources,28,1,9,4,No,3,3,3,0,88700,No
+277,Sales-East,Senior Analyst,59,Male,Married,Other,11,4,10,15,No,4,2,3,0,93700,No
+278,Finance,Senior Analyst,38,Male,Divorced,Marketing,16,0,6,6,Yes,3,2,3,0,73600,Yes
+279,Customer Support,Manager,25,Female,Single,Technical Degree,26,1,3,12,Yes,2,2,3,3,108200,No
+280,Customer Support,Associate,32,Female,Married,Other,21,6,11,19,Yes,2,2,3,0,49800,No
+281,Finance,Senior Analyst,38,Female,Married,Human Resources,20,1,5,3,Yes,3,4,3,1,83100,No
+282,R&D-Core,Associate,35,Female,Single,Life Sciences,18,12,14,5,No,3,3,3,1,69600,No
+283,Sales-East,Associate,31,Female,Married,Life Sciences,8,4,6,12,Yes,2,4,3,0,44400,No
+284,R&D-Platform,Analyst,33,Female,Divorced,Marketing,3,0,4,4,No,3,2,3,0,55600,No
+285,Customer Support,Senior Analyst,49,Male,Single,Marketing,10,2,4,13,No,4,3,3,0,72100,No
+286,Sales-West,Manager,35,Male,Married,Other,3,4,4,10,No,4,3,3,1,136600,No
+287,Sales-West,Analyst,27,Male,Divorced,Marketing,17,5,12,2,No,4,4,3,1,68800,Yes
+288,R&D-Platform,Associate,45,Male,Single,Human Resources,5,2,5,4,No,3,1,3,1,53500,Yes
+289,Customer Support,Associate,49,Male,Divorced,Other,18,0,7,14,Yes,4,3,3,1,54700,No
+290,Operations,Manager,40,Male,Married,Technical Degree,15,1,5,16,No,1,3,4,0,130800,No
+291,Sales-East,Executive,49,Male,Married,Marketing,29,8,9,16,No,3,1,3,0,201000,No
+292,Sales-West,Representative,28,Male,Single,Business,19,1,1,16,No,4,3,3,1,36900,No
+293,Customer Support,Analyst,26,Male,Single,Technical Degree,28,1,7,18,Yes,4,2,3,1,63600,Yes
+294,Finance,Manager,52,Female,Single,Human Resources,29,5,10,13,No,4,2,3,1,136700,No
+295,Finance,Associate,51,Female,Divorced,Business,7,6,14,7,No,1,1,3,1,46400,No
+296,Operations,Manager,41,Female,Divorced,Life Sciences,27,2,6,16,No,3,4,3,3,131900,No
+297,Operations,Analyst,39,Female,Single,Marketing,15,9,13,18,No,4,2,3,2,65500,No
+298,Customer Support,Analyst,38,Female,Married,Marketing,22,3,3,13,No,3,4,3,1,64600,No
+299,Customer Support,Associate,29,Male,Single,Technical Degree,12,7,11,11,Yes,2,2,4,0,52400,Yes
+300,R&D-Core,Manager,48,Male,Married,Business,12,1,2,14,No,3,4,3,0,87000,No
+301,Finance,Representative,35,Female,Married,Life Sciences,1,0,1,4,Yes,4,4,3,1,37300,No
+302,Sales-West,Representative,50,Female,Divorced,Business,10,2,6,3,No,2,3,3,2,46000,No
+303,Customer Support,Representative,38,Male,Married,Business,8,4,7,14,Yes,4,4,3,1,37500,Yes
+304,Customer Support,Associate,54,Male,Single,Life Sciences,21,4,12,14,Yes,4,2,4,2,46700,No
+305,Finance,Senior Analyst,54,Female,Married,Marketing,13,0,5,7,No,3,2,3,0,93700,No
+306,R&D-Platform,Representative,52,Female,Married,Human Resources,11,0,0,3,Yes,3,3,3,0,29700,No
+307,R&D-Core,Analyst,31,Female,Divorced,Other,3,2,11,9,No,4,3,3,1,63600,No
+308,R&D-Core,Associate,47,Female,Married,Business,23,5,10,5,No,1,4,3,2,53000,No
+309,Sales-East,Analyst,50,Male,Single,Marketing,15,4,4,10,Yes,1,3,3,0,62700,Yes
+310,Customer Support,Senior Analyst,49,Female,Single,Marketing,22,1,3,10,Yes,3,4,3,3,86600,No
+311,HR,Associate,55,Male,Single,Human Resources,9,12,12,2,No,1,3,3,1,55200,No
+312,R&D-Core,Analyst,27,Male,Single,Life Sciences,4,10,13,1,No,2,3,4,0,72700,No
+313,HR,Senior Analyst,46,Female,Married,Human Resources,5,11,18,3,No,1,3,3,1,121300,No
+314,Finance,Senior Analyst,48,Male,Single,Technical Degree,24,2,11,11,No,4,4,4,3,80900,No
+315,R&D-Core,Manager,34,Female,Married,Technical Degree,20,2,3,11,Yes,3,2,3,3,118600,No
+316,Customer Support,Analyst,30,Male,Divorced,Other,3,5,11,7,No,2,2,4,3,63400,No
+317,Operations,Representative,43,Female,Divorced,Marketing,6,0,1,9,Yes,2,4,3,0,36900,Yes
+318,R&D-Core,Senior Analyst,31,Female,Single,Business,10,1,3,9,No,2,2,3,2,83600,No
+319,Sales-East,Analyst,43,Male,Married,Life Sciences,17,4,10,26,No,3,2,3,0,60500,No
+320,Customer Support,Associate,25,Female,Married,Marketing,29,2,6,13,Yes,2,3,3,2,49400,No
+321,Operations,Manager,36,Female,Single,Business,21,2,4,13,No,4,2,4,1,97900,No
+322,Sales-East,Manager,36,Female,Married,Other,19,3,12,19,No,3,1,3,0,102200,No
+323,Finance,Associate,49,Male,Single,Business,10,2,3,8,No,1,3,3,0,49100,No
+324,Customer Support,Manager,21,Male,Married,Business,25,10,18,10,No,4,3,3,0,188500,No
+325,Operations,Analyst,35,Female,Married,Other,28,2,2,7,Yes,3,1,3,1,59900,No
+326,Sales-East,Associate,46,Female,Divorced,Marketing,27,2,6,18,No,1,2,3,0,49400,No
+327,Sales-East,Analyst,40,Female,Single,Life Sciences,24,1,5,24,No,4,3,3,0,51900,No
+328,Operations,Manager,50,Female,Married,Marketing,8,1,6,13,No,3,2,3,0,125000,Yes
+329,Sales-East,Senior Analyst,54,Male,Married,Technical Degree,2,12,15,17,No,3,3,3,0,117900,No
+330,Sales-West,Analyst,51,Female,Married,Marketing,24,4,8,7,No,3,1,4,0,71400,No
+331,HR,Representative,34,Female,Divorced,Technical Degree,12,0,3,9,No,4,3,3,0,32000,No
+332,R&D-Platform,Analyst,26,Female,Married,Technical Degree,11,3,4,5,No,4,2,3,1,79600,No
+333,Customer Support,Associate,24,Male,Married,Life Sciences,22,6,10,13,Yes,3,4,3,1,47200,No
+334,Sales-West,Analyst,46,Female,Married,Technical Degree,2,0,9,17,No,4,2,3,0,70200,No
+335,Operations,Senior Analyst,25,Male,Married,Life Sciences,2,2,4,16,No,3,1,3,0,78900,No
+336,Sales-West,Analyst,53,Female,Married,Marketing,4,4,6,12,No,2,2,4,0,73100,Yes
+337,Customer Support,Executive,43,Female,Single,Marketing,7,1,9,16,Yes,4,4,3,0,213200,Yes
+338,Sales-East,Analyst,22,Male,Single,Other,4,7,9,8,No,4,3,3,1,90300,No
+339,R&D-Platform,Associate,51,Male,Married,Marketing,19,4,6,5,No,1,4,3,2,49600,No
+340,Sales-East,Senior Analyst,28,Male,Married,Business,19,5,6,8,Yes,2,1,3,0,79200,Yes
+341,R&D-Core,Analyst,59,Male,Divorced,Business,22,6,9,7,No,1,3,4,0,77400,No
+342,R&D-Core,Associate,31,Female,Single,Technical Degree,19,2,11,6,No,1,3,4,1,43800,No
+343,Finance,Manager,42,Male,Single,Life Sciences,16,11,19,8,No,2,4,3,0,139800,Yes
+344,R&D-Platform,Associate,39,Male,Divorced,Other,25,7,16,7,No,3,2,3,3,50700,No
+345,Sales-East,Senior Analyst,34,Male,Married,Human Resources,22,1,2,11,No,3,1,3,0,78300,No
+346,Operations,Representative,27,Male,Single,Business,9,8,14,10,Yes,3,4,3,0,47100,Yes
+347,Operations,Senior Analyst,23,Male,Single,Other,6,22,30,11,No,4,4,3,0,143800,No
+348,Operations,Analyst,42,Female,Married,Other,23,10,15,11,Yes,2,3,4,0,83900,Yes
+349,Sales-West,Representative,59,Female,Single,Technical Degree,12,2,3,2,No,4,4,4,1,40700,No
+350,R&D-Core,Associate,34,Female,Married,Business,8,8,13,7,No,4,4,3,1,53200,No
+351,Sales-West,Analyst,32,Female,Divorced,Human Resources,9,3,3,6,Yes,1,3,3,0,70500,Yes
+352,Sales-East,Senior Analyst,46,Male,Married,Human Resources,10,2,5,16,Yes,1,3,3,0,102400,Yes
+353,Sales-East,Analyst,59,Male,Married,Technical Degree,3,4,9,11,Yes,1,1,4,2,81300,No
+354,R&D-Platform,Analyst,41,Female,Divorced,Business,20,3,11,12,No,3,3,3,0,66600,No
+355,Sales-East,Manager,58,Male,Single,Marketing,13,9,10,11,No,3,3,3,0,147600,No
+356,Sales-West,Senior Analyst,47,Female,Divorced,Business,12,12,17,4,No,2,3,4,1,103200,No
+357,Customer Support,Representative,52,Male,Married,Technical Degree,5,3,5,16,No,3,3,3,0,36400,Yes
+358,R&D-Platform,Analyst,30,Female,Single,Business,29,1,9,9,No,2,3,3,0,61800,No
+359,Sales-West,Manager,42,Male,Single,Technical Degree,22,3,10,6,No,4,2,3,1,134400,No
+360,Finance,Analyst,48,Male,Married,Other,10,6,12,4,No,4,4,4,0,59900,No
+361,Sales-West,Analyst,35,Male,Single,Other,5,9,18,5,Yes,2,1,3,0,72600,Yes
+362,R&D-Platform,Representative,49,Female,Married,Technical Degree,7,0,6,6,No,1,2,3,3,34200,No
+363,Sales-West,Analyst,36,Female,Married,Technical Degree,13,1,8,6,No,3,2,4,0,57600,No
+364,R&D-Platform,Executive,49,Female,Single,Technical Degree,26,3,9,16,No,1,3,3,0,182300,No
+365,Finance,Manager,38,Male,Divorced,Business,23,0,0,3,No,3,3,3,0,124600,No
+366,R&D-Platform,Manager,23,Male,Married,Marketing,26,2,9,5,Yes,3,3,3,0,113000,No
+367,R&D-Core,Representative,24,Female,Married,Life Sciences,14,0,8,5,No,1,3,4,3,36800,No
+368,Customer Support,Senior Analyst,57,Female,Single,Other,5,4,12,10,Yes,4,3,3,0,83400,Yes
+369,Customer Support,Senior Analyst,45,Female,Married,Human Resources,7,1,5,11,No,3,1,3,1,89600,No
+370,Sales-West,Representative,43,Female,Divorced,Other,10,3,9,9,No,3,3,3,1,33300,No
+371,Sales-East,Senior Analyst,51,Male,Married,Other,3,4,11,20,No,3,3,3,2,107800,No
+372,Sales-East,Analyst,31,Male,Married,Technical Degree,15,9,12,13,No,4,3,3,2,82500,No
+373,Operations,Representative,35,Female,Married,Technical Degree,1,4,11,14,Yes,3,3,3,0,45100,No
+374,Operations,Representative,37,Male,Married,Technical Degree,2,5,7,20,Yes,3,1,3,1,36400,Yes
+375,Sales-West,Manager,46,Male,Married,Human Resources,20,1,9,5,No,3,3,3,0,104900,No
+376,Operations,Analyst,41,Male,Single,Life Sciences,11,14,15,12,Yes,1,3,3,1,72300,Yes
+377,Sales-West,Senior Analyst,31,Male,Single,Marketing,28,3,6,14,No,3,4,3,0,90200,No
+378,R&D-Platform,Associate,41,Female,Single,Other,23,0,8,7,Yes,1,2,4,0,50400,No
+379,R&D-Platform,Senior Analyst,35,Female,Divorced,Other,9,8,9,4,Yes,3,3,3,2,113800,Yes
+380,Operations,Manager,30,Male,Single,Business,23,4,8,11,No,4,1,3,3,144500,Yes
+381,Sales-East,Senior Analyst,28,Female,Single,Business,19,5,14,14,No,4,3,3,1,83900,No
+382,R&D-Core,Manager,31,Female,Married,Other,5,3,3,15,No,4,1,3,2,146800,No
+383,HR,Associate,42,Female,Married,Life Sciences,17,22,28,16,No,4,3,3,3,80800,No
+384,Sales-East,Senior Analyst,35,Male,Divorced,Human Resources,9,2,7,16,Yes,4,3,3,0,84400,No
+385,Sales-West,Analyst,37,Female,Single,Business,2,0,2,4,No,4,3,3,2,42500,Yes
+386,R&D-Platform,Senior Analyst,51,Male,Single,Human Resources,8,0,8,17,No,3,3,3,1,77200,No
+387,Operations,Senior Analyst,48,Male,Single,Human Resources,7,3,9,6,No,3,3,3,1,91100,No
+388,Customer Support,Senior Analyst,38,Male,Married,Business,20,2,11,14,No,1,1,3,0,106200,No
+389,Customer Support,Senior Analyst,43,Female,Single,Business,13,10,14,25,Yes,3,2,3,0,113100,No
+390,Customer Support,Associate,22,Male,Married,Other,4,11,20,15,Yes,2,4,3,0,59300,No
+391,Finance,Manager,36,Male,Married,Life Sciences,13,0,4,4,Yes,4,4,4,1,141600,No
+392,Customer Support,Associate,38,Male,Married,Other,29,2,10,13,No,1,2,4,0,56100,Yes
+393,Finance,Senior Analyst,32,Male,Married,Marketing,22,1,8,9,No,2,3,3,3,91200,No
+394,Customer Support,Manager,28,Male,Single,Technical Degree,4,12,13,17,Yes,3,2,3,2,174600,No
+395,R&D-Core,Manager,49,Male,Married,Human Resources,7,7,15,3,No,3,2,3,0,165800,No
+396,Sales-West,Representative,21,Female,Divorced,Human Resources,16,2,7,16,No,3,3,3,0,34000,No
+397,Customer Support,Executive,59,Male,Divorced,Human Resources,16,3,4,5,Yes,3,4,3,0,205000,No
+398,Sales-West,Senior Analyst,59,Male,Married,Other,21,0,7,13,No,1,3,3,0,80800,No
+399,Operations,Associate,45,Female,Divorced,Business,10,1,3,10,No,3,4,3,2,41200,No
+400,HR,Manager,32,Female,Single,Human Resources,28,3,9,5,No,3,1,3,0,138100,Yes
+401,R&D-Core,Senior Analyst,32,Female,Single,Business,10,3,3,7,No,2,4,3,1,104200,No
+402,Operations,Senior Analyst,41,Female,Married,Business,18,8,11,11,No,4,1,3,1,127800,No
+403,Sales-East,Associate,47,Female,Married,Business,16,2,5,13,Yes,4,1,3,3,51900,No
+404,R&D-Platform,Manager,34,Male,Divorced,Human Resources,25,10,10,10,Yes,3,1,3,0,176100,No
+405,Sales-East,Representative,38,Male,Married,Technical Degree,11,0,9,10,No,3,2,3,0,34300,No
+406,Operations,Manager,23,Female,Single,Business,16,1,9,10,Yes,1,3,4,1,102300,No
+407,HR,Analyst,55,Male,Married,Marketing,25,4,8,11,No,1,1,3,0,62300,No
+408,Customer Support,Associate,56,Female,Single,Life Sciences,7,1,8,12,No,4,4,3,0,48400,No
+409,Sales-West,Analyst,31,Male,Divorced,Life Sciences,15,25,26,1,No,3,3,4,2,97900,No
+410,Customer Support,Analyst,57,Male,Single,Life Sciences,13,12,20,16,Yes,3,4,3,0,99400,No
+411,Finance,Analyst,54,Female,Single,Human Resources,7,1,1,5,No,2,3,3,0,70400,No
+412,Finance,Senior Analyst,28,Male,Single,Life Sciences,18,3,6,2,Yes,3,2,3,2,90500,No
+413,Operations,Representative,26,Male,Single,Other,1,6,11,12,Yes,3,2,3,2,49500,No
+414,R&D-Platform,Analyst,37,Female,Married,Technical Degree,16,11,13,5,Yes,3,4,3,0,85700,No
+415,R&D-Core,Analyst,47,Male,Single,Life Sciences,27,10,15,6,No,4,3,3,2,92600,No
+416,Finance,Analyst,35,Female,Single,Technical Degree,23,2,10,6,No,2,1,4,1,62300,Yes
+417,Customer Support,Representative,49,Male,Married,Business,19,4,13,6,No,1,2,4,1,42700,No
+418,R&D-Core,Senior Analyst,27,Male,Married,Other,16,3,9,10,No,4,2,4,1,90200,No
+419,Finance,Manager,57,Male,Single,Business,27,11,13,10,Yes,2,3,4,0,159900,No
+420,Sales-West,Representative,46,Male,Married,Other,12,6,12,5,No,2,4,3,3,46700,No
+421,HR,Analyst,30,Male,Single,Marketing,6,0,3,12,No,4,3,3,0,73100,No
+422,Customer Support,Analyst,51,Female,Single,Life Sciences,15,3,3,23,No,1,1,3,0,66400,Yes
+423,Sales-East,Analyst,36,Male,Married,Other,17,3,12,9,No,3,4,3,0,67700,No
+424,Finance,Associate,50,Male,Single,Other,16,1,2,11,Yes,2,4,3,0,41700,No
+425,Sales-East,Associate,48,Male,Divorced,Human Resources,20,3,10,8,Yes,4,1,3,2,47900,No
+426,Operations,Associate,47,Female,Single,Human Resources,1,5,12,15,Yes,3,2,3,2,54700,No
+427,R&D-Platform,Executive,25,Female,Married,Human Resources,8,8,11,14,No,3,3,3,0,191300,Yes
+428,R&D-Core,Associate,21,Male,Married,Other,10,6,14,0,No,3,4,3,0,50500,No
+429,Finance,Executive,48,Female,Married,Human Resources,19,9,11,1,No,4,1,3,1,199500,No
+430,R&D-Platform,Associate,29,Female,Married,Technical Degree,17,3,6,9,No,2,4,3,0,50200,Yes
+431,Customer Support,Executive,23,Male,Single,Marketing,27,1,8,15,Yes,1,3,4,3,204400,No
+432,Sales-East,Associate,41,Male,Single,Business,21,3,11,11,No,3,3,3,0,51000,No
+433,HR,Analyst,57,Female,Single,Other,12,2,3,11,No,3,3,3,1,61600,No
+434,HR,Executive,48,Male,Divorced,Life Sciences,13,1,2,3,No,2,3,3,3,164100,No
+435,Operations,Associate,32,Female,Single,Marketing,26,2,3,15,Yes,4,2,3,2,38900,No
+436,Sales-East,Analyst,36,Male,Single,Technical Degree,22,5,10,23,No,4,2,3,0,69200,No
+437,R&D-Platform,Manager,48,Male,Married,Marketing,2,12,14,3,Yes,4,3,3,0,191700,Yes
+438,Finance,Representative,38,Male,Married,Marketing,15,11,14,13,No,4,2,3,1,45200,No
+439,HR,Analyst,42,Male,Married,Business,8,2,8,16,No,2,4,3,2,63200,No
+440,Sales-East,Analyst,53,Male,Single,Marketing,11,4,9,13,No,3,2,3,2,63800,No
+441,HR,Representative,23,Male,Single,Business,26,2,6,12,No,4,3,3,2,32300,No
+442,Sales-West,Senior Analyst,21,Male,Married,Marketing,8,6,7,6,No,1,1,3,1,112600,Yes
+443,Sales-West,Manager,55,Male,Single,Human Resources,14,1,6,8,Yes,4,3,3,2,133700,No
+444,Customer Support,Representative,31,Male,Single,Technical Degree,24,4,7,24,Yes,3,3,4,2,32600,Yes
+445,Sales-West,Manager,53,Male,Married,Other,23,1,6,10,No,2,3,4,0,106100,No
+446,R&D-Platform,Associate,32,Male,Single,Technical Degree,27,1,5,7,No,4,3,4,3,53500,No
+447,Customer Support,Senior Analyst,54,Female,Divorced,Other,21,5,14,12,Yes,3,3,4,0,88000,No
+448,Finance,Associate,59,Male,Single,Human Resources,22,1,6,6,No,2,2,4,0,46100,No
+449,HR,Analyst,56,Female,Married,Technical Degree,12,4,12,6,No,4,4,3,0,59300,No
+450,Customer Support,Analyst,29,Male,Married,Business,7,2,4,13,No,4,4,3,1,66000,No
+451,R&D-Platform,Analyst,41,Female,Married,Technical Degree,21,0,6,11,Yes,1,3,3,0,54600,No
+452,Finance,Analyst,22,Male,Married,Business,21,7,13,1,No,4,3,4,1,67600,No
+453,Customer Support,Analyst,31,Male,Single,Other,22,12,20,17,No,2,2,3,2,71300,Yes
+454,Finance,Analyst,37,Male,Married,Other,15,2,4,4,Yes,4,2,3,0,77500,Yes
+455,Finance,Manager,22,Female,Married,Business,3,4,4,2,No,3,3,3,0,174600,No
+456,R&D-Core,Representative,46,Male,Single,Business,27,5,14,16,Yes,4,3,3,1,41300,Yes
+457,HR,Associate,28,Male,Married,Technical Degree,20,10,19,3,Yes,4,2,3,0,63000,Yes
+458,R&D-Core,Senior Analyst,26,Male,Married,Marketing,1,1,3,5,No,1,4,3,2,93400,No
+459,Customer Support,Senior Analyst,46,Female,Married,Business,6,8,13,23,Yes,3,3,4,2,105600,No
+460,R&D-Core,Analyst,53,Male,Married,Human Resources,23,8,9,4,No,4,2,3,0,73700,No
+461,R&D-Platform,Associate,59,Male,Married,Business,20,1,3,10,No,3,4,3,1,44500,Yes
+462,Customer Support,Analyst,28,Male,Married,Technical Degree,14,2,4,15,Yes,2,3,3,1,69400,No
+463,R&D-Platform,Senior Analyst,51,Female,Divorced,Marketing,13,0,6,7,No,3,3,3,2,73100,No
+464,R&D-Core,Associate,48,Male,Married,Marketing,25,1,6,15,Yes,1,4,3,3,41900,No
+465,Customer Support,Senior Analyst,52,Male,Divorced,Business,19,2,3,10,Yes,2,1,3,1,97500,No
+466,R&D-Core,Associate,27,Male,Married,Marketing,18,10,14,5,No,4,1,3,0,49100,No
+467,Customer Support,Associate,39,Male,Single,Business,5,7,15,20,No,4,4,3,0,64600,No
+468,Customer Support,Manager,55,Male,Single,Marketing,1,1,7,16,No,4,2,3,3,119800,No
+469,R&D-Platform,Analyst,43,Female,Single,Technical Degree,23,3,4,7,No,1,3,3,0,66900,No
+470,Finance,Analyst,28,Male,Single,Human Resources,21,17,18,5,Yes,3,4,3,0,104500,No
+471,Sales-East,Representative,21,Male,Single,Business,28,3,10,9,No,3,2,4,2,38000,No
+472,R&D-Core,Senior Analyst,49,Female,Married,Life Sciences,16,5,9,7,No,3,4,3,2,99300,No
+473,Customer Support,Analyst,23,Female,Married,Human Resources,20,6,7,14,No,2,2,3,1,66100,Yes
+474,HR,Representative,53,Female,Married,Human Resources,7,1,6,4,Yes,2,4,4,1,38200,No
+475,HR,Manager,46,Male,Married,Marketing,14,0,0,1,No,4,1,3,3,129700,No
+476,Finance,Representative,30,Male,Married,Technical Degree,4,9,18,14,Yes,4,3,3,1,40000,No
+477,Finance,Senior Analyst,29,Male,Single,Other,4,1,6,10,Yes,3,4,3,0,94300,No
+478,HR,Senior Analyst,24,Male,Divorced,Life Sciences,12,0,8,8,No,3,3,3,3,94600,No
+479,R&D-Core,Representative,34,Female,Single,Other,3,11,14,4,No,2,3,3,3,49100,No
+480,Sales-West,Analyst,43,Female,Married,Marketing,17,0,5,12,No,3,3,3,2,54900,No
+481,R&D-Core,Senior Analyst,32,Female,Married,Technical Degree,8,0,3,8,No,4,3,3,0,94200,No
+482,R&D-Core,Senior Analyst,40,Male,Single,Other,14,2,5,5,No,4,3,3,0,104400,No
+483,R&D-Platform,Associate,45,Male,Divorced,Technical Degree,21,8,17,3,No,1,2,4,0,52700,No
+484,Operations,Analyst,39,Male,Married,Human Resources,1,4,5,15,Yes,4,3,3,1,53100,No
+485,R&D-Core,Senior Analyst,30,Male,Married,Marketing,13,5,8,3,No,3,4,3,2,89900,No
+486,R&D-Platform,Analyst,51,Male,Single,Life Sciences,5,0,6,11,No,3,3,3,1,60200,No
+487,R&D-Core,Senior Analyst,49,Male,Single,Life Sciences,4,4,11,11,No,2,2,3,0,109600,Yes
+488,HR,Associate,39,Male,Married,Human Resources,20,2,7,12,No,4,3,4,0,54300,No
+489,Operations,Senior Analyst,28,Male,Single,Life Sciences,14,2,4,12,Yes,3,2,3,2,97300,No
+490,Operations,Analyst,40,Male,Single,Business,16,2,6,21,Yes,4,3,3,0,59000,Yes
+491,R&D-Core,Representative,35,Female,Married,Technical Degree,22,2,7,5,No,1,3,3,2,40400,No
+492,Sales-West,Senior Analyst,40,Male,Single,Life Sciences,22,1,8,7,No,3,4,3,1,87600,No
+493,Operations,Representative,25,Male,Divorced,Other,3,2,10,9,Yes,2,3,3,0,32800,No
+494,R&D-Platform,Analyst,38,Female,Married,Technical Degree,13,3,7,5,No,3,2,3,0,52000,No
+495,Finance,Analyst,22,Female,Married,Business,16,4,7,7,No,2,4,3,2,75000,No
+496,Sales-East,Senior Analyst,36,Female,Divorced,Marketing,8,5,12,22,No,3,3,3,3,79500,Yes
+497,Customer Support,Associate,48,Female,Divorced,Other,16,7,8,7,Yes,1,2,4,0,62400,Yes
+498,R&D-Core,Associate,27,Female,Married,Human Resources,24,3,5,4,No,3,3,3,2,61900,No
+499,R&D-Platform,Analyst,25,Male,Married,Other,21,4,13,4,No,2,1,3,1,67500,No
+500,Sales-West,Associate,32,Female,Single,Business,7,2,5,6,No,4,2,3,0,43100,No
+501,R&D-Core,Analyst,56,Male,Single,Other,19,3,8,0,No,2,2,3,0,60700,No
+502,Customer Support,Executive,31,Male,Single,Marketing,2,2,11,17,Yes,2,3,4,0,176100,No
+503,Customer Support,Representative,57,Female,Single,Marketing,6,4,9,17,No,2,2,3,3,41000,No
+504,R&D-Platform,Analyst,30,Male,Single,Life Sciences,11,12,17,5,No,4,2,3,1,91100,No
+505,Customer Support,Analyst,23,Male,Single,Other,16,5,8,9,Yes,1,3,3,0,63100,Yes
+506,R&D-Platform,Analyst,51,Male,Married,Life Sciences,14,2,11,5,No,2,3,3,0,61200,No
+507,R&D-Core,Executive,25,Male,Single,Marketing,7,6,15,15,No,4,2,3,1,196700,No
+508,HR,Senior Analyst,25,Female,Single,Human Resources,7,3,3,14,Yes,3,3,3,0,105000,Yes
+509,Sales-West,Manager,41,Female,Married,Human Resources,10,0,9,5,Yes,4,4,3,0,133700,No
+510,R&D-Core,Analyst,29,Male,Single,Life Sciences,28,1,10,18,Yes,1,3,3,0,55800,No
+511,Finance,Associate,44,Male,Married,Human Resources,13,10,17,11,No,1,4,3,1,56500,No
+512,Customer Support,Analyst,41,Female,Single,Human Resources,7,16,16,12,No,3,4,4,0,90600,No
+513,Sales-East,Associate,48,Female,Married,Technical Degree,19,12,15,15,Yes,2,2,3,1,48600,Yes
+514,Customer Support,Senior Analyst,33,Male,Single,Business,4,1,8,14,No,2,3,4,0,82200,Yes
+515,Customer Support,Executive,31,Female,Married,Life Sciences,3,18,24,19,Yes,3,3,3,1,281900,No
+516,R&D-Platform,Analyst,30,Female,Divorced,Business,20,1,6,2,No,3,4,4,0,51900,No
+517,Sales-East,Manager,50,Female,Single,Human Resources,1,1,4,19,Yes,2,3,3,1,126800,Yes
+518,Finance,Senior Analyst,35,Female,Married,Business,5,6,7,8,Yes,1,3,3,0,100900,No
+519,Sales-West,Senior Analyst,54,Female,Married,Business,9,1,7,9,No,3,4,4,0,82000,No
+520,Finance,Manager,40,Male,Single,Life Sciences,9,0,3,4,No,3,1,4,2,134500,No
+521,R&D-Core,Associate,51,Female,Single,Human Resources,18,1,9,10,No,4,1,3,0,41400,No
+522,Finance,Analyst,47,Female,Divorced,Technical Degree,12,1,5,5,No,3,3,4,0,64900,No
+523,Sales-West,Associate,48,Male,Married,Human Resources,19,3,3,6,No,2,3,3,1,47700,No
+524,R&D-Platform,Representative,58,Male,Married,Marketing,8,8,13,4,No,4,3,3,1,48900,No
+525,R&D-Platform,Senior Analyst,38,Female,Married,Technical Degree,7,4,12,8,No,2,4,3,0,86700,No
+526,Finance,Representative,54,Male,Divorced,Human Resources,19,2,6,1,No,4,2,3,1,39700,No
+527,Sales-West,Associate,53,Female,Single,Marketing,3,2,8,7,No,4,1,3,2,51100,No
+528,Operations,Analyst,37,Female,Married,Life Sciences,5,1,1,8,Yes,3,2,3,0,70000,No
+529,Sales-West,Representative,48,Female,Married,Other,15,3,3,7,No,3,3,3,0,45300,No
+530,R&D-Core,Analyst,38,Male,Married,Life Sciences,19,7,16,4,No,2,2,3,0,59900,Yes
+531,Sales-West,Executive,46,Male,Single,Life Sciences,15,2,2,9,No,3,3,3,1,189400,No
+532,Sales-East,Manager,37,Female,Married,Other,4,1,4,7,Yes,1,3,3,0,108300,No
+533,R&D-Core,Senior Analyst,40,Male,Married,Other,27,3,6,4,No,4,2,3,0,103200,No
+534,Customer Support,Associate,30,Female,Married,Other,17,0,7,8,No,3,3,4,0,52100,No
+535,Finance,Analyst,45,Male,Single,Life Sciences,18,11,19,9,No,3,3,3,2,77100,No
+536,Sales-West,Associate,58,Male,Married,Life Sciences,29,4,13,11,No,4,4,3,0,51900,No
+537,Sales-East,Executive,34,Male,Married,Life Sciences,21,4,9,18,No,4,4,3,0,232300,No
+538,R&D-Core,Senior Analyst,23,Male,Married,Business,23,13,22,11,No,2,2,3,1,121000,No
+539,Customer Support,Analyst,48,Male,Single,Technical Degree,4,0,9,15,No,4,2,4,0,59100,Yes
+540,R&D-Platform,Analyst,28,Male,Married,Life Sciences,28,2,3,2,No,4,4,3,1,51600,No
+541,Operations,Analyst,48,Female,Single,Other,26,0,5,23,No,2,4,3,0,55100,No
+542,Finance,Senior Analyst,46,Female,Married,Technical Degree,16,13,21,9,No,3,4,4,0,131900,No
+543,Finance,Senior Analyst,58,Male,Married,Life Sciences,17,1,2,6,No,3,3,3,3,72900,No
+544,Customer Support,Associate,43,Male,Divorced,Other,5,7,12,10,Yes,3,2,3,0,56300,No
+545,Customer Support,Associate,25,Male,Single,Other,9,10,18,13,No,3,3,3,0,60000,No
+546,R&D-Core,Senior Analyst,31,Female,Divorced,Other,11,7,13,5,No,3,4,4,0,102800,No
+547,Sales-West,Representative,31,Male,Single,Business,14,1,5,6,No,3,3,3,1,39400,Yes
+548,R&D-Platform,Executive,57,Female,Single,Technical Degree,23,7,9,12,Yes,3,3,3,0,199200,No
+549,R&D-Platform,Senior Analyst,54,Male,Single,Business,26,12,17,9,No,3,1,3,0,134200,No
+550,Sales-East,Analyst,36,Male,Single,Business,4,3,4,18,No,1,3,3,0,62200,No
+551,R&D-Platform,Associate,55,Male,Divorced,Technical Degree,17,1,9,0,No,2,2,3,1,51800,Yes
+552,Finance,Analyst,44,Female,Divorced,Technical Degree,20,2,7,6,Yes,3,1,3,3,59400,No
+553,Sales-East,Associate,33,Male,Divorced,Marketing,3,6,13,21,No,4,2,4,1,54800,No
+554,Sales-East,Representative,24,Female,Married,Other,10,2,11,13,No,3,2,3,0,35700,No
+555,Sales-West,Senior Analyst,56,Male,Single,Business,27,2,10,11,No,2,3,3,0,107700,No
+556,Sales-West,Manager,55,Male,Married,Marketing,27,0,4,2,Yes,1,3,3,1,105700,No
+557,Operations,Analyst,50,Male,Divorced,Life Sciences,22,2,8,15,Yes,4,3,3,2,59000,No
+558,Sales-East,Analyst,25,Female,Single,Marketing,11,1,10,15,No,3,2,3,3,72300,No
+559,Sales-West,Manager,42,Female,Divorced,Human Resources,7,1,7,4,No,3,2,3,0,135300,No
+560,Sales-West,Executive,36,Male,Single,Life Sciences,10,3,10,6,No,4,3,4,2,195500,No
+561,R&D-Platform,Associate,47,Male,Married,Human Resources,16,14,17,8,No,3,4,3,1,62000,No
+562,Sales-East,Representative,55,Male,Married,Human Resources,8,1,1,11,Yes,2,4,3,1,30700,Yes
+563,R&D-Platform,Representative,41,Female,Divorced,Other,13,8,9,6,Yes,2,4,3,1,42100,No
+564,Sales-West,Senior Analyst,57,Male,Divorced,Human Resources,16,1,10,19,No,3,4,3,1,91200,Yes
+565,Sales-West,Analyst,28,Female,Single,Technical Degree,21,3,5,8,No,4,3,3,0,74600,Yes
+566,Customer Support,Associate,56,Female,Married,Other,28,1,2,11,No,2,3,3,0,51400,No
+567,Sales-West,Representative,55,Male,Single,Human Resources,2,3,4,8,No,3,2,3,0,44600,No
+568,HR,Senior Analyst,53,Male,Married,Life Sciences,16,0,2,9,No,2,3,3,0,88900,No
+569,R&D-Core,Representative,58,Female,Single,Human Resources,17,7,14,12,No,1,3,3,2,38900,No
+570,R&D-Core,Associate,30,Male,Married,Business,22,2,7,13,No,4,3,3,0,45800,Yes
+571,Customer Support,Manager,28,Female,Married,Human Resources,5,25,29,13,No,3,1,3,2,247400,No
+572,Sales-West,Analyst,22,Male,Single,Other,16,1,10,13,No,3,2,3,1,62600,No
+573,Operations,Executive,50,Male,Married,Business,4,10,15,18,No,4,3,3,1,272500,No
+574,Operations,Analyst,38,Female,Divorced,Business,3,0,1,12,No,1,3,3,1,49100,No
+575,Finance,Analyst,32,Male,Single,Other,8,2,2,7,No,2,3,4,2,60100,Yes
+576,Sales-East,Associate,23,Female,Divorced,Life Sciences,18,1,3,22,No,1,1,3,2,42100,No
+577,Finance,Senior Analyst,31,Female,Married,Human Resources,14,1,5,6,No,1,3,3,0,90300,No
+578,HR,Analyst,58,Male,Single,Life Sciences,18,1,1,9,No,3,4,3,1,56200,No
+579,Customer Support,Analyst,23,Male,Divorced,Other,14,5,14,10,Yes,2,1,4,2,58500,Yes
+580,Sales-West,Analyst,21,Female,Married,Life Sciences,18,4,4,9,No,3,4,3,1,66700,No
+581,Operations,Analyst,30,Female,Married,Human Resources,19,7,7,19,Yes,2,1,3,2,53400,No
+582,Operations,Analyst,33,Male,Married,Technical Degree,9,5,9,15,Yes,1,3,3,1,64300,Yes
+583,Sales-East,Analyst,28,Female,Divorced,Life Sciences,6,5,13,10,No,4,3,3,1,72500,No
+584,R&D-Core,Analyst,28,Male,Single,Business,8,0,5,12,No,1,2,3,0,52100,No
+585,Sales-East,Representative,42,Male,Single,Business,27,4,9,11,Yes,3,2,3,0,39000,No
+586,Customer Support,Manager,21,Male,Single,Life Sciences,10,2,7,13,No,1,1,3,1,114300,No
+587,Operations,Associate,59,Male,Single,Life Sciences,28,6,9,17,No,4,3,3,0,51000,Yes
+588,Operations,Associate,40,Female,Divorced,Technical Degree,1,4,4,16,No,4,1,3,2,51900,No
+589,HR,Executive,35,Female,Married,Life Sciences,24,9,13,5,No,1,4,3,2,241200,No
+590,Finance,Associate,23,Male,Married,Life Sciences,5,3,7,8,No,4,4,3,3,51600,No
+591,Finance,Senior Analyst,28,Male,Divorced,Technical Degree,3,0,0,4,No,3,4,3,2,77600,No
+592,HR,Analyst,56,Female,Married,Business,9,7,11,6,No,4,2,3,3,85500,No
+593,Operations,Analyst,34,Male,Single,Marketing,4,5,12,13,Yes,4,3,3,0,71700,No
+594,HR,Associate,47,Male,Married,Life Sciences,15,4,13,6,No,3,4,3,0,46700,No
+595,R&D-Core,Analyst,27,Female,Married,Other,21,3,10,7,No,3,3,3,2,75700,No
+596,R&D-Platform,Analyst,35,Female,Single,Business,27,6,9,5,No,2,3,4,0,67600,No
+597,Sales-East,Senior Analyst,33,Female,Single,Technical Degree,16,2,4,14,Yes,3,3,3,2,110800,No
+598,Finance,Manager,53,Female,Married,Human Resources,21,1,7,24,Yes,1,1,3,1,136000,No
+599,Finance,Analyst,36,Male,Married,Technical Degree,20,1,1,9,No,4,3,3,3,61100,No
+600,R&D-Core,Representative,52,Male,Single,Marketing,15,6,10,3,No,4,4,3,0,39100,No
+601,Customer Support,Manager,56,Male,Divorced,Marketing,27,0,3,17,No,4,4,3,0,108500,No
+602,Customer Support,Representative,33,Female,Single,Business,21,2,9,20,Yes,3,4,3,1,33800,Yes
+603,R&D-Core,Senior Analyst,29,Male,Single,Other,5,4,8,7,No,2,4,4,0,92300,No
+604,Sales-East,Analyst,54,Male,Single,Technical Degree,13,9,15,12,No,4,2,3,1,88300,No
+605,Sales-East,Senior Analyst,57,Male,Married,Marketing,20,1,2,19,Yes,3,4,3,1,89600,Yes
+606,Sales-West,Associate,57,Male,Married,Human Resources,2,0,9,5,Yes,3,2,4,1,44700,No
+607,R&D-Core,Analyst,26,Male,Married,Life Sciences,4,4,12,5,Yes,2,3,4,0,70700,No
+608,R&D-Platform,Associate,45,Male,Divorced,Human Resources,20,5,11,2,No,2,3,3,1,50000,Yes
+609,Operations,Senior Analyst,25,Male,Single,Business,14,6,11,10,No,3,3,3,0,85800,No
+610,Sales-West,Senior Analyst,34,Male,Divorced,Marketing,21,3,6,11,No,2,3,3,1,76800,No
+611,Operations,Analyst,36,Male,Single,Marketing,8,6,11,23,Yes,4,2,3,2,82800,No
+612,Finance,Manager,56,Male,Married,Technical Degree,20,3,7,19,No,4,4,3,0,126900,No
+613,Customer Support,Representative,49,Female,Single,Business,29,1,7,10,No,3,2,3,2,42900,No
+614,R&D-Core,Analyst,57,Female,Divorced,Business,25,1,9,2,No,2,3,3,0,75700,No
+615,Sales-East,Representative,53,Female,Married,Business,9,10,13,12,No,2,1,4,0,47100,No
+616,Customer Support,Manager,34,Male,Married,Other,23,2,5,12,Yes,1,4,3,2,139100,Yes
+617,Sales-West,Associate,54,Female,Single,Technical Degree,27,5,14,7,No,4,4,3,2,49700,No
+618,Sales-East,Senior Analyst,24,Male,Married,Other,25,2,11,14,Yes,4,2,3,2,89000,No
+619,Customer Support,Manager,28,Female,Single,Marketing,20,9,15,9,Yes,1,3,4,2,154400,Yes
+620,Finance,Analyst,54,Female,Married,Human Resources,2,3,7,4,Yes,1,3,3,0,65600,No
+621,Sales-West,Analyst,23,Male,Married,Technical Degree,21,10,10,12,No,3,4,3,2,92000,No
+622,Sales-West,Analyst,46,Male,Single,Other,29,6,15,11,No,4,2,3,2,70200,No
+623,Operations,Analyst,55,Female,Married,Technical Degree,11,1,4,14,Yes,2,1,3,2,68500,No
+624,Sales-West,Senior Analyst,30,Male,Divorced,Life Sciences,18,0,1,3,No,2,3,3,0,86500,No
+625,Finance,Associate,48,Male,Single,Business,10,4,4,7,No,3,2,3,0,54300,Yes
+626,Sales-East,Senior Analyst,43,Male,Married,Other,18,9,16,18,Yes,2,2,3,2,131600,Yes
+627,Customer Support,Senior Analyst,48,Male,Single,Business,9,1,1,10,No,2,3,3,0,71900,Yes
+628,Sales-East,Associate,33,Female,Single,Life Sciences,18,1,5,10,No,3,3,3,0,52900,No
+629,R&D-Platform,Associate,25,Female,Married,Technical Degree,13,0,2,3,No,1,2,4,2,41900,No
+630,Sales-East,Associate,56,Female,Married,Other,8,4,6,18,No,1,2,3,0,51800,No
+631,HR,Representative,25,Male,Married,Life Sciences,21,3,7,14,No,3,4,3,0,36700,Yes
+632,Customer Support,Associate,34,Male,Divorced,Business,9,6,11,11,Yes,4,3,3,0,50300,No
+633,Sales-East,Senior Analyst,21,Male,Married,Marketing,16,6,9,9,Yes,2,2,4,2,84600,Yes
+634,Sales-West,Representative,28,Male,Married,Technical Degree,26,5,5,7,No,2,3,3,3,27700,No
+635,Customer Support,Analyst,46,Male,Married,Business,27,5,6,18,Yes,2,1,4,0,86700,No
+636,HR,Analyst,22,Female,Married,Business,18,6,7,12,No,1,3,3,0,78300,No
+637,R&D-Core,Senior Analyst,29,Female,Divorced,Human Resources,25,4,11,0,No,1,2,3,2,92900,Yes
+638,Finance,Senior Analyst,34,Male,Married,Other,28,4,12,6,No,2,3,3,0,74600,Yes
+639,R&D-Platform,Analyst,33,Female,Married,Marketing,8,1,6,4,No,2,4,3,1,66900,No
+640,Customer Support,Executive,59,Male,Single,Life Sciences,7,1,6,15,Yes,3,3,3,1,220700,No
+641,R&D-Core,Associate,28,Female,Divorced,Technical Degree,8,1,10,18,No,2,3,3,2,48900,No
+642,Customer Support,Senior Analyst,29,Female,Single,Human Resources,17,9,12,13,No,4,2,3,0,86500,No
+643,Finance,Associate,50,Female,Married,Technical Degree,4,9,15,7,No,3,2,3,1,53800,No
+644,Customer Support,Associate,38,Female,Divorced,Life Sciences,18,3,4,24,No,4,2,3,1,50800,No
+645,R&D-Core,Analyst,40,Female,Single,Technical Degree,9,11,14,13,Yes,1,2,3,0,79400,Yes
+646,Finance,Manager,58,Male,Divorced,Human Resources,2,2,3,11,Yes,4,3,3,0,144400,Yes
+647,Finance,Analyst,29,Male,Single,Human Resources,1,1,5,12,No,3,3,3,0,54900,Yes
+648,R&D-Core,Senior Analyst,21,Female,Single,Life Sciences,19,2,4,5,Yes,2,2,3,0,83600,No
+649,Sales-East,Associate,55,Male,Married,Other,13,2,11,15,Yes,4,3,4,0,33800,No
+650,Operations,Associate,32,Female,Married,Business,12,4,8,8,Yes,3,3,3,1,57300,No
+651,Finance,Analyst,33,Male,Married,Technical Degree,11,3,3,12,No,2,3,3,1,70600,No
+652,Sales-West,Associate,53,Male,Divorced,Life Sciences,13,0,0,11,No,3,3,4,1,42800,No
+653,Customer Support,Manager,45,Male,Married,Business,18,7,16,13,No,3,4,3,1,114600,No
+654,Sales-West,Associate,24,Male,Divorced,Technical Degree,6,1,3,13,No,2,3,3,1,51300,No
+655,R&D-Platform,Representative,55,Male,Single,Business,29,2,8,15,Yes,3,1,3,2,30900,No
+656,Customer Support,Representative,57,Male,Single,Other,18,8,12,17,No,2,2,3,0,36900,No
+657,R&D-Platform,Associate,21,Female,Single,Business,6,0,3,9,No,1,3,3,0,34800,No
+658,Sales-West,Analyst,53,Male,Married,Marketing,20,2,10,10,Yes,1,4,3,0,52900,No
+659,R&D-Core,Representative,27,Male,Married,Life Sciences,12,4,9,3,No,4,4,3,1,34900,No
+660,Sales-East,Analyst,26,Female,Married,Other,26,2,10,13,Yes,4,2,3,0,55400,Yes
+661,Sales-West,Senior Analyst,50,Male,Single,Life Sciences,28,6,7,4,No,2,4,3,1,113600,No
+662,Sales-West,Analyst,44,Male,Married,Technical Degree,25,1,10,11,Yes,4,3,3,0,67200,No
+663,Sales-West,Associate,38,Male,Divorced,Marketing,21,8,8,7,No,3,3,3,0,56400,No
+664,Sales-East,Associate,42,Female,Single,Marketing,29,9,11,14,No,2,3,3,0,53300,No
+665,R&D-Platform,Associate,28,Male,Single,Technical Degree,12,2,7,7,No,2,3,3,1,47500,No
+666,Sales-West,Executive,48,Male,Divorced,Other,29,3,4,8,Yes,2,3,4,0,165300,No
+667,Customer Support,Representative,34,Female,Divorced,Marketing,8,9,9,12,No,2,3,4,1,46600,No
+668,Operations,Representative,32,Male,Divorced,Life Sciences,21,0,8,12,Yes,1,3,3,0,31100,Yes
+669,Sales-West,Analyst,42,Male,Single,Technical Degree,26,1,3,5,No,4,4,3,1,58100,No
+670,HR,Representative,35,Male,Married,Human Resources,9,6,12,6,No,3,3,3,0,43000,No
+671,R&D-Platform,Manager,23,Female,Single,Marketing,19,6,13,12,No,2,4,3,0,126800,No
+672,Sales-East,Senior Analyst,30,Male,Married,Other,16,0,2,8,No,3,3,3,0,70900,No
+673,Sales-East,Manager,59,Male,Married,Marketing,25,4,12,21,No,3,1,4,1,151000,No
+674,Operations,Analyst,32,Male,Single,Other,3,0,4,21,No,4,3,3,2,47600,No
+675,R&D-Platform,Representative,36,Female,Married,Technical Degree,16,1,2,4,No,2,2,3,1,30500,Yes
+676,Customer Support,Representative,27,Male,Married,Human Resources,17,2,11,12,Yes,3,3,4,0,31900,No
+677,Sales-East,Manager,23,Male,Single,Marketing,12,1,8,11,Yes,4,2,3,0,112900,No
+678,HR,Associate,56,Male,Single,Marketing,9,13,21,12,No,4,3,3,0,61500,No
+679,Customer Support,Analyst,44,Female,Married,Marketing,22,2,3,24,No,1,2,3,3,39000,No
+680,Customer Support,Senior Analyst,55,Female,Single,Human Resources,16,4,13,12,No,3,3,3,1,89500,No
+681,Sales-East,Representative,53,Male,Divorced,Human Resources,25,6,15,7,Yes,4,3,3,2,48300,No
+682,R&D-Platform,Analyst,35,Female,Divorced,Marketing,22,3,7,15,No,2,3,3,0,74800,Yes
+683,R&D-Core,Executive,39,Female,Divorced,Life Sciences,25,1,10,2,No,3,1,3,0,205100,No
+684,Customer Support,Senior Analyst,48,Male,Married,Marketing,2,8,9,12,Yes,2,3,3,2,104400,No
+685,Sales-East,Associate,51,Female,Single,Other,21,9,12,15,No,2,3,3,0,58700,No
+686,Sales-West,Associate,40,Male,Single,Marketing,26,18,23,5,No,1,3,3,1,64700,No
+687,Customer Support,Senior Analyst,22,Female,Single,Other,23,15,22,14,Yes,3,2,3,1,98400,No
+688,R&D-Platform,Analyst,31,Male,Single,Marketing,2,0,1,4,No,2,3,3,1,62600,No
+689,R&D-Platform,Manager,33,Male,Single,Marketing,1,5,5,9,No,1,3,3,1,155900,No
+690,Operations,Representative,34,Male,Divorced,Life Sciences,15,7,8,19,Yes,2,3,3,0,43900,No
+691,R&D-Core,Executive,43,Female,Divorced,Human Resources,24,0,0,9,Yes,2,4,3,1,179400,No
+692,Sales-East,Representative,58,Female,Married,Business,7,9,9,11,No,3,3,3,1,49100,No
+693,R&D-Core,Analyst,26,Male,Single,Technical Degree,14,0,7,4,No,4,4,3,2,62300,No
+694,Sales-East,Associate,34,Male,Divorced,Life Sciences,2,3,5,10,No,4,3,3,1,55700,No
+695,Sales-East,Analyst,31,Male,Divorced,Other,13,4,7,8,Yes,4,4,3,0,63800,No
+696,HR,Analyst,43,Male,Married,Human Resources,14,4,5,11,No,4,3,4,1,52600,No
+697,Operations,Analyst,52,Female,Single,Business,12,2,11,14,No,4,3,4,0,67400,No
+698,HR,Senior Analyst,57,Female,Single,Technical Degree,8,8,10,8,No,2,1,4,2,116700,No
+699,Finance,Senior Analyst,40,Male,Married,Marketing,20,2,9,1,No,3,3,3,1,81600,No
+700,R&D-Core,Manager,32,Male,Divorced,Human Resources,3,1,7,5,Yes,4,3,4,0,127100,Yes
+701,HR,Senior Analyst,29,Female,Single,Other,23,3,7,8,No,4,4,3,1,100700,No
+702,Customer Support,Analyst,52,Male,Married,Human Resources,24,19,25,16,Yes,3,4,3,0,63100,No
+703,HR,Analyst,22,Female,Married,Technical Degree,4,6,11,3,Yes,1,4,3,1,91800,Yes
+704,Customer Support,Analyst,25,Female,Divorced,Technical Degree,8,10,10,9,No,2,3,3,3,85300,No
+705,HR,Analyst,23,Male,Single,Marketing,16,23,29,8,No,2,3,4,3,98900,No
+706,Sales-West,Representative,49,Female,Married,Business,28,6,14,5,Yes,4,3,3,0,35500,No
+707,HR,Associate,54,Male,Married,Human Resources,27,7,12,11,Yes,4,3,3,0,44000,Yes
+708,R&D-Platform,Senior Analyst,52,Male,Married,Human Resources,18,2,10,13,No,3,3,3,1,126600,Yes
+709,Sales-West,Analyst,31,Male,Divorced,Life Sciences,2,6,14,6,No,1,4,3,3,68000,No
+710,HR,Representative,53,Male,Divorced,Other,11,2,11,10,No,4,1,3,2,40200,No
+711,Customer Support,Senior Analyst,21,Male,Divorced,Technical Degree,16,16,23,10,Yes,4,4,3,1,115700,No
+712,Sales-East,Associate,59,Male,Single,Human Resources,2,1,3,9,No,4,2,3,2,44500,No
+713,HR,Analyst,44,Female,Single,Business,13,3,11,7,No,4,1,3,3,70600,No
+714,Customer Support,Analyst,48,Male,Single,Other,25,5,12,24,Yes,4,3,3,0,61100,Yes
+715,R&D-Core,Analyst,24,Male,Single,Other,2,2,6,11,No,2,1,3,0,63000,No
+716,Sales-West,Associate,59,Female,Single,Other,4,8,13,29,No,1,3,3,2,54400,No
+717,R&D-Core,Senior Analyst,36,Female,Married,Human Resources,23,8,14,27,No,4,2,3,2,111500,No
+718,HR,Representative,31,Female,Single,Business,23,12,19,6,No,4,4,4,1,52600,No
+719,Finance,Analyst,54,Female,Single,Business,28,0,3,8,No,2,3,3,0,58700,No
+720,HR,Senior Analyst,41,Male,Married,Marketing,16,1,10,5,No,3,2,3,0,102400,No
+721,Sales-East,Analyst,26,Male,Married,Other,10,0,0,15,No,1,3,3,0,56500,Yes
+722,Customer Support,Associate,29,Female,Divorced,Technical Degree,14,1,1,11,Yes,1,3,3,1,44200,No
+723,Operations,Representative,35,Male,Married,Other,11,2,11,16,No,4,4,3,3,37500,No
+724,Sales-East,Analyst,24,Male,Single,Life Sciences,3,9,17,7,Yes,4,1,3,0,73800,No
+725,Sales-West,Analyst,40,Male,Divorced,Marketing,27,1,3,4,No,2,4,3,1,67600,No
+726,Sales-West,Senior Analyst,38,Male,Single,Business,13,5,13,2,Yes,3,4,3,0,63800,No
+727,Customer Support,Analyst,46,Male,Married,Business,12,5,9,18,Yes,4,2,3,1,54100,No
+728,Operations,Senior Analyst,49,Female,Single,Human Resources,1,10,16,10,Yes,3,3,3,3,81200,No
+729,Sales-East,Analyst,26,Male,Single,Marketing,10,8,12,26,No,3,3,3,2,87100,Yes
+730,R&D-Core,Associate,51,Male,Married,Business,23,7,11,15,No,4,3,4,1,59900,No
+731,Sales-West,Analyst,53,Female,Married,Life Sciences,1,5,10,3,No,1,2,3,0,63100,No
+732,R&D-Platform,Senior Analyst,21,Male,Married,Life Sciences,21,21,26,6,No,4,4,4,0,145100,No
+733,Operations,Executive,50,Female,Married,Other,10,3,6,25,Yes,3,3,3,0,153900,Yes
+734,Sales-East,Representative,57,Female,Married,Life Sciences,4,12,13,10,Yes,3,3,3,1,45800,No
+735,Sales-West,Senior Analyst,36,Male,Single,Other,13,0,1,7,No,2,4,3,0,100300,No
+736,R&D-Platform,Associate,30,Male,Single,Human Resources,15,5,12,14,No,2,3,3,0,55800,No
+737,R&D-Platform,Representative,42,Female,Married,Life Sciences,23,1,3,10,No,3,3,3,0,45400,No
+738,Customer Support,Representative,32,Male,Married,Business,6,1,6,16,No,2,3,3,1,33900,No
+739,R&D-Platform,Analyst,29,Male,Single,Human Resources,24,10,19,4,No,4,3,3,0,89000,No
+740,Sales-East,Representative,53,Male,Single,Life Sciences,21,1,6,10,No,1,2,3,0,36500,Yes
+741,R&D-Core,Analyst,44,Male,Married,Technical Degree,20,3,5,4,No,3,3,3,0,68000,No
+742,Operations,Representative,55,Male,Married,Life Sciences,6,1,8,15,Yes,2,3,4,2,37200,No
+743,Customer Support,Associate,48,Male,Single,Life Sciences,6,3,5,16,No,1,3,3,0,53700,No
+744,Sales-East,Manager,49,Male,Divorced,Marketing,6,5,6,15,Yes,4,3,3,1,160400,Yes
+745,Customer Support,Associate,51,Female,Divorced,Marketing,21,2,10,17,No,4,3,3,0,48100,No
+746,R&D-Core,Manager,33,Female,Single,Technical Degree,9,15,15,7,No,3,3,3,0,182200,No
+747,Customer Support,Representative,26,Male,Married,Technical Degree,22,4,10,14,Yes,2,2,4,0,38800,No
+748,Sales-East,Executive,39,Female,Single,Life Sciences,29,9,10,12,Yes,3,3,3,0,236800,No
+749,Customer Support,Associate,58,Male,Married,Business,25,4,12,10,No,1,4,3,3,45500,No
+750,Sales-West,Manager,53,Female,Single,Life Sciences,24,0,0,3,No,4,3,3,1,134800,No
+751,R&D-Platform,Analyst,49,Female,Single,Human Resources,19,5,10,3,No,3,3,3,0,75000,No
+752,Finance,Senior Analyst,34,Female,Single,Marketing,12,13,21,2,No,4,2,3,0,123000,No
+753,R&D-Platform,Representative,29,Male,Single,Human Resources,10,11,12,4,No,2,3,3,1,46500,No
+754,Sales-West,Senior Analyst,52,Female,Married,Life Sciences,24,24,25,5,No,3,3,3,1,134600,No
+755,Sales-East,Associate,38,Male,Single,Business,18,1,2,9,No,3,3,3,2,41100,No
+756,Sales-West,Representative,51,Male,Divorced,Life Sciences,11,5,8,8,No,3,3,3,3,34800,No
+757,Sales-East,Manager,29,Male,Divorced,Other,13,2,3,10,Yes,4,4,3,2,115100,No
+758,Sales-West,Associate,39,Male,Single,Life Sciences,6,9,15,3,No,3,3,3,0,63700,No
+759,Sales-East,Manager,52,Female,Married,Business,4,4,4,11,Yes,3,2,3,0,141700,Yes
+760,R&D-Platform,Associate,55,Male,Divorced,Technical Degree,27,1,3,5,No,3,3,3,0,38400,No
+761,R&D-Core,Associate,22,Male,Single,Life Sciences,29,3,3,11,No,1,3,3,1,43300,No
+762,HR,Manager,35,Female,Married,Business,2,2,11,7,No,3,4,4,0,148200,No
+763,Sales-West,Representative,31,Male,Married,Other,4,8,10,4,No,4,3,3,0,52300,No
+764,Sales-East,Analyst,50,Female,Single,Human Resources,24,3,12,11,Yes,4,2,3,2,72300,No
+765,R&D-Core,Senior Analyst,51,Male,Single,Other,12,1,10,10,No,3,4,3,0,110400,No
+766,Customer Support,Representative,45,Female,Single,Human Resources,28,5,8,13,Yes,4,3,3,2,37000,No
+767,Sales-West,Senior Analyst,50,Female,Married,Other,27,0,0,9,No,2,3,3,1,89800,No
+768,R&D-Core,Senior Analyst,33,Male,Single,Technical Degree,3,1,6,3,No,3,1,3,0,81000,Yes
+769,Customer Support,Senior Analyst,23,Male,Married,Human Resources,15,6,7,12,No,2,2,3,1,127900,Yes
+770,R&D-Core,Representative,41,Male,Divorced,Marketing,25,3,10,5,No,3,4,4,1,40300,No
+771,Operations,Representative,21,Male,Married,Human Resources,2,0,9,17,No,1,1,3,0,37000,No
+772,Operations,Analyst,44,Male,Single,Life Sciences,23,2,11,20,No,3,3,4,2,66800,Yes
+773,R&D-Core,Analyst,44,Female,Divorced,Marketing,9,10,13,7,No,1,4,3,2,71900,No
+774,Customer Support,Analyst,41,Male,Married,Marketing,2,3,9,10,Yes,3,4,3,1,65300,No
+775,Sales-West,Associate,53,Female,Married,Life Sciences,19,3,11,1,No,4,2,3,1,35700,No
+776,Sales-East,Executive,25,Female,Single,Other,13,0,4,18,Yes,4,2,3,2,171200,No
+777,R&D-Platform,Associate,36,Male,Married,Marketing,6,0,3,7,No,3,3,3,1,39700,No
+778,HR,Representative,59,Male,Married,Business,8,1,1,10,No,3,1,4,1,39700,Yes
+779,Operations,Analyst,30,Female,Married,Business,22,4,5,12,Yes,2,3,3,1,78600,No
+780,Sales-East,Analyst,58,Male,Married,Human Resources,12,4,10,9,Yes,2,3,3,0,69900,No
+781,Finance,Representative,21,Male,Single,Other,25,3,5,1,Yes,2,3,3,0,33600,Yes
+782,R&D-Platform,Analyst,22,Male,Divorced,Human Resources,12,0,6,16,No,3,4,3,0,52400,No
+783,Sales-East,Senior Analyst,29,Male,Married,Other,2,3,4,19,Yes,4,2,3,2,101700,Yes
+784,Operations,Associate,57,Male,Divorced,Business,12,4,10,18,Yes,1,1,3,0,49100,Yes
+785,Finance,Analyst,46,Male,Single,Life Sciences,5,11,13,5,No,3,2,4,1,77900,No
+786,Sales-East,Analyst,41,Male,Single,Business,1,9,12,9,Yes,4,4,3,0,66700,No
+787,Operations,Senior Analyst,25,Female,Single,Human Resources,27,1,2,12,Yes,4,2,4,1,90800,Yes
+788,Sales-East,Associate,25,Female,Single,Marketing,8,2,10,4,No,1,1,3,0,49300,No
+789,Sales-East,Senior Analyst,54,Male,Married,Life Sciences,29,3,5,15,Yes,3,3,3,0,102500,No
+790,R&D-Core,Associate,53,Male,Single,Business,9,1,6,6,No,4,3,3,0,41400,No
+791,Operations,Analyst,23,Male,Single,Business,29,9,18,11,No,4,4,3,0,76500,No
+792,Sales-East,Representative,37,Male,Single,Human Resources,19,3,6,13,No,2,4,3,2,31900,No
+793,Operations,Analyst,42,Female,Divorced,Technical Degree,4,11,11,12,Yes,4,4,3,2,82700,No
+794,HR,Associate,48,Male,Married,Marketing,21,5,7,4,Yes,4,4,3,2,52200,No
+795,Sales-East,Analyst,21,Female,Divorced,Human Resources,1,3,9,8,Yes,4,1,3,1,63000,No
+796,HR,Analyst,53,Male,Single,Marketing,22,0,0,7,No,4,4,3,1,67100,Yes
+797,R&D-Platform,Senior Analyst,41,Female,Single,Human Resources,13,3,5,6,Yes,1,2,3,2,79100,Yes
+798,HR,Analyst,41,Female,Divorced,Marketing,19,4,11,10,No,3,1,3,0,80600,No
+799,Customer Support,Analyst,35,Female,Single,Business,3,2,11,11,Yes,3,4,3,0,67400,No
+800,Finance,Senior Analyst,22,Female,Single,Human Resources,26,2,5,8,No,4,2,4,3,97300,No
+801,Operations,Analyst,57,Male,Married,Marketing,5,2,8,7,Yes,4,2,4,3,66300,No
+802,Sales-East,Representative,53,Female,Single,Other,17,5,13,12,Yes,3,3,3,0,37200,No
+803,Customer Support,Senior Analyst,53,Male,Single,Human Resources,2,2,4,11,No,2,4,3,0,84800,No
+804,R&D-Core,Analyst,48,Female,Married,Business,10,3,6,6,No,4,2,3,2,73600,No
+805,Customer Support,Associate,39,Female,Married,Other,28,4,11,15,No,2,4,4,1,50800,No
+806,Operations,Analyst,56,Male,Single,Life Sciences,2,3,6,10,No,3,4,3,2,68600,No
+807,Operations,Executive,25,Male,Married,Human Resources,2,2,11,10,No,4,3,3,1,184600,No
+808,Sales-West,Analyst,31,Male,Married,Life Sciences,22,5,12,8,Yes,2,2,3,0,76800,No
+809,R&D-Platform,Analyst,38,Male,Divorced,Human Resources,12,0,8,4,No,4,2,3,0,65400,No
+810,Operations,Representative,51,Male,Single,Marketing,17,4,7,17,Yes,1,2,3,2,33400,Yes
+811,Operations,Analyst,34,Male,Single,Other,20,2,9,7,No,1,3,3,1,79400,No
+812,R&D-Core,Associate,55,Male,Married,Life Sciences,5,7,16,5,No,3,3,3,1,61900,No
+813,Operations,Senior Analyst,33,Female,Single,Human Resources,18,3,5,19,Yes,3,2,3,1,103000,No
+814,R&D-Core,Representative,34,Female,Divorced,Life Sciences,15,1,6,7,No,2,3,3,1,37900,Yes
+815,R&D-Core,Associate,33,Female,Divorced,Other,11,1,1,8,Yes,4,2,4,0,46500,No
+816,Customer Support,Manager,36,Male,Married,Business,28,10,19,21,No,3,4,3,0,173900,No
+817,R&D-Platform,Analyst,52,Male,Married,Human Resources,3,8,9,6,No,1,4,3,2,98600,No
+818,R&D-Platform,Representative,34,Female,Single,Marketing,18,11,12,15,No,2,3,4,0,46500,No
+819,R&D-Core,Analyst,40,Male,Divorced,Marketing,3,2,9,8,Yes,4,1,3,1,55800,No
+820,R&D-Platform,Representative,21,Female,Single,Human Resources,9,3,3,10,Yes,1,2,3,0,38400,No
+821,Sales-East,Senior Analyst,42,Male,Single,Life Sciences,12,4,12,20,Yes,1,3,3,0,97000,Yes
+822,Sales-East,Analyst,30,Male,Single,Marketing,24,19,19,15,No,2,4,3,2,106200,No
+823,Customer Support,Analyst,40,Male,Married,Life Sciences,22,6,12,10,Yes,1,3,3,1,60900,No
+824,HR,Senior Analyst,33,Male,Single,Other,12,0,8,8,No,2,1,3,2,81300,No
+825,Finance,Associate,35,Male,Divorced,Business,25,0,9,9,No,3,2,4,0,43700,No
+826,Customer Support,Analyst,25,Male,Married,Human Resources,1,1,5,18,No,4,1,3,1,69800,No
+827,Sales-West,Analyst,38,Female,Married,Business,21,7,13,11,No,3,3,3,0,83100,No
+828,Sales-West,Associate,50,Male,Married,Life Sciences,3,3,10,9,Yes,3,3,3,2,50700,No
+829,Sales-West,Associate,44,Male,Married,Business,10,6,14,7,No,1,3,3,2,60500,No
+830,R&D-Core,Manager,37,Male,Divorced,Business,28,3,8,6,No,2,2,3,0,133800,No
+831,Customer Support,Manager,54,Male,Married,Business,5,7,14,18,No,3,1,4,2,148400,No
+832,R&D-Core,Associate,43,Male,Married,Marketing,3,1,10,19,No,3,3,3,0,33900,No
+833,R&D-Core,Analyst,44,Male,Single,Technical Degree,3,4,4,7,No,4,2,3,0,60500,No
+834,Finance,Manager,32,Female,Single,Technical Degree,23,10,18,4,No,3,1,3,1,136000,No
+835,Sales-West,Manager,47,Male,Single,Other,14,2,8,4,No,4,2,4,2,135300,No
+836,Sales-East,Analyst,35,Male,Married,Marketing,1,2,6,9,Yes,2,1,3,0,64700,No
+837,Finance,Manager,28,Female,Single,Business,12,3,8,19,Yes,3,4,3,1,114700,Yes
+838,Customer Support,Representative,50,Male,Divorced,Technical Degree,13,1,2,10,No,4,2,3,1,36500,No
+839,R&D-Core,Senior Analyst,43,Female,Single,Business,3,1,10,7,Yes,4,4,3,1,86800,No
+840,Finance,Representative,39,Female,Married,Marketing,9,1,4,9,No,2,4,3,2,38000,No
+841,Sales-East,Associate,48,Male,Single,Technical Degree,13,4,5,8,No,3,2,3,1,47300,No
+842,R&D-Core,Analyst,44,Male,Married,Marketing,10,1,4,9,No,4,3,3,1,56800,No
+843,HR,Associate,50,Female,Married,Marketing,17,5,9,1,No,3,2,3,3,59700,Yes
+844,Sales-West,Associate,37,Male,Single,Life Sciences,3,2,5,11,No,4,3,3,0,46500,Yes
+845,R&D-Core,Senior Analyst,59,Female,Divorced,Marketing,13,12,17,7,No,4,4,3,1,130600,No
+846,HR,Analyst,42,Female,Single,Other,12,0,7,14,No,2,3,3,1,53900,No
+847,HR,Manager,39,Female,Single,Life Sciences,25,1,6,19,Yes,3,2,3,1,120900,No
+848,Sales-East,Executive,55,Male,Married,Marketing,23,5,13,6,No,2,3,3,2,200000,No
+849,Finance,Representative,59,Female,Married,Marketing,20,2,6,21,Yes,4,3,3,1,32900,No
+850,Sales-East,Associate,31,Male,Divorced,Marketing,16,8,16,17,Yes,1,2,4,0,60900,No
+851,Operations,Associate,30,Male,Single,Other,24,1,5,9,No,4,3,3,1,39000,No
+852,Sales-West,Manager,41,Male,Single,Technical Degree,4,0,1,14,No,1,3,3,0,124000,Yes
+853,Sales-West,Analyst,23,Male,Married,Other,22,2,8,8,Yes,1,3,3,2,47500,No
+854,Sales-West,Associate,47,Female,Divorced,Life Sciences,24,6,7,4,No,4,3,3,1,57800,No
+855,Operations,Analyst,47,Female,Divorced,Business,22,2,2,11,No,2,4,3,0,64200,No
+856,Sales-West,Senior Analyst,24,Male,Single,Marketing,26,3,9,3,No,3,3,3,1,105700,Yes
+857,HR,Associate,31,Female,Married,Other,24,1,4,12,No,4,3,4,0,57900,No
+858,Operations,Executive,58,Male,Married,Technical Degree,14,12,19,12,Yes,2,3,3,2,225700,No
+859,Operations,Analyst,28,Male,Married,Business,27,7,11,22,No,3,3,3,0,73000,No
+860,Sales-East,Senior Analyst,40,Male,Single,Human Resources,11,11,18,13,No,4,4,4,0,95900,No
+861,R&D-Platform,Analyst,47,Male,Divorced,Technical Degree,7,7,10,5,No,3,3,3,0,68900,No
+862,HR,Analyst,30,Male,Married,Human Resources,1,1,10,5,No,3,4,3,0,62500,No
+863,Finance,Analyst,34,Female,Single,Business,2,14,21,18,No,2,2,3,0,85900,No
+864,R&D-Core,Representative,50,Female,Single,Technical Degree,3,4,7,6,No,3,3,4,0,43100,No
+865,R&D-Core,Representative,37,Female,Married,Human Resources,3,0,1,16,No,4,3,3,0,37200,No
+866,Sales-East,Associate,52,Male,Divorced,Business,11,4,4,23,Yes,3,1,3,1,56600,Yes
+867,Sales-East,Associate,23,Female,Married,Business,10,0,8,16,No,3,3,4,1,41500,Yes
+868,HR,Analyst,45,Female,Married,Business,4,6,9,6,No,4,1,3,3,72300,No
+869,Sales-East,Senior Analyst,34,Male,Divorced,Technical Degree,18,7,12,12,Yes,3,4,3,2,90300,No
+870,Sales-West,Associate,56,Male,Married,Marketing,29,1,4,7,No,3,3,3,0,45600,No
+871,R&D-Core,Manager,38,Female,Divorced,Technical Degree,1,0,7,9,No,2,2,3,1,80800,No
+872,Sales-East,Analyst,24,Male,Single,Marketing,19,1,2,17,Yes,2,3,3,1,61200,No
+873,Sales-East,Analyst,53,Male,Single,Life Sciences,24,0,9,19,Yes,1,2,4,0,60600,No
+874,Operations,Manager,41,Female,Single,Human Resources,10,2,8,20,No,4,1,3,1,120500,No
+875,R&D-Platform,Senior Analyst,23,Male,Married,Business,12,8,8,8,No,2,3,3,0,100600,No
+876,Sales-West,Associate,49,Male,Married,Technical Degree,17,1,6,4,No,4,3,3,1,36900,No
+877,Finance,Associate,43,Male,Divorced,Other,9,9,18,6,No,2,3,3,0,52800,No
+878,Sales-East,Analyst,56,Female,Married,Business,5,2,8,13,Yes,3,4,3,0,59200,Yes
+879,Sales-West,Analyst,48,Male,Married,Life Sciences,24,6,12,12,No,4,3,3,1,72900,Yes
+880,Operations,Associate,46,Male,Married,Life Sciences,27,6,14,19,No,4,3,3,0,56200,No
+881,Operations,Analyst,29,Female,Married,Other,24,3,8,11,No,3,2,3,1,62100,Yes
+882,Finance,Analyst,44,Male,Married,Human Resources,15,3,8,6,No,4,2,4,0,64400,No
+883,Sales-East,Analyst,27,Female,Married,Technical Degree,26,3,4,5,Yes,1,4,3,0,68300,Yes
+884,R&D-Core,Associate,36,Male,Married,Technical Degree,21,6,14,0,No,4,1,3,2,47500,No
+885,Sales-East,Associate,37,Female,Divorced,Marketing,20,0,4,17,Yes,1,1,3,2,50600,No
+886,Sales-West,Analyst,43,Female,Divorced,Marketing,6,0,8,24,No,3,4,3,0,74900,No
+887,Sales-East,Analyst,29,Female,Married,Human Resources,2,14,16,13,Yes,1,1,3,1,89300,No
+888,Sales-East,Senior Analyst,42,Male,Single,Other,14,1,6,13,Yes,1,3,4,2,82700,No
+889,Finance,Manager,33,Male,Divorced,Marketing,6,15,24,2,Yes,4,4,3,0,179000,No
+890,Sales-East,Associate,56,Female,Married,Marketing,21,3,9,14,Yes,4,3,3,1,56000,Yes
+891,Sales-East,Senior Analyst,59,Female,Divorced,Technical Degree,18,1,1,12,No,1,3,3,0,101100,No
+892,Operations,Analyst,53,Male,Married,Business,12,8,12,26,No,1,1,3,1,62600,Yes
+893,R&D-Core,Representative,30,Male,Married,Business,16,7,7,7,Yes,1,3,3,0,44100,No
+894,R&D-Core,Manager,49,Male,Divorced,Other,2,3,6,13,No,4,3,3,1,119700,No
+895,Sales-East,Associate,59,Female,Married,Human Resources,15,2,6,9,Yes,3,3,4,1,45300,No
+896,Customer Support,Senior Analyst,57,Male,Married,Other,14,3,10,12,No,4,2,4,0,95900,No
+897,Finance,Analyst,55,Male,Divorced,Human Resources,3,0,6,13,No,3,3,3,0,64000,No
+898,HR,Associate,23,Male,Married,Life Sciences,24,2,8,2,Yes,4,3,3,0,46200,No
+899,HR,Associate,26,Female,Divorced,Human Resources,15,9,17,2,No,1,4,3,3,51400,No
+900,Sales-East,Associate,51,Male,Married,Life Sciences,14,7,10,15,Yes,4,1,3,0,53300,Yes
+901,Sales-West,Analyst,32,Female,Married,Other,21,2,10,18,Yes,2,4,3,0,55900,No
+902,HR,Analyst,39,Female,Married,Life Sciences,29,0,6,8,No,3,3,4,0,72700,No
+903,Operations,Manager,39,Male,Married,Business,15,2,6,10,No,1,3,3,0,103700,No
+904,Customer Support,Manager,50,Female,Married,Marketing,17,2,7,12,Yes,2,3,3,1,136600,Yes
+905,Finance,Associate,49,Male,Married,Marketing,21,24,25,2,No,4,3,4,0,78600,No
+906,R&D-Platform,Manager,32,Male,Married,Other,26,8,9,10,No,1,3,4,1,149200,No
+907,Sales-East,Representative,51,Male,Divorced,Human Resources,11,0,9,12,Yes,1,4,3,3,30700,Yes
+908,Operations,Manager,39,Male,Married,Human Resources,1,4,11,15,No,2,4,4,2,126700,No
+909,Sales-East,Associate,43,Male,Divorced,Business,20,6,10,7,No,2,4,3,0,51000,No
+910,Sales-East,Analyst,53,Male,Married,Life Sciences,19,4,8,18,No,4,2,3,0,63000,No
+911,Finance,Analyst,32,Male,Divorced,Other,5,10,17,2,No,4,3,3,0,75800,No
+912,Customer Support,Associate,22,Female,Single,Life Sciences,15,2,11,15,No,4,4,3,1,48400,No
+913,Customer Support,Senior Analyst,46,Male,Single,Life Sciences,18,1,4,12,Yes,3,3,3,0,83000,No
+914,R&D-Platform,Associate,32,Male,Married,Business,11,5,13,4,Yes,3,2,3,3,54500,Yes
+915,Sales-West,Associate,31,Female,Married,Life Sciences,4,3,3,2,No,3,4,3,2,53400,No
+916,Sales-East,Analyst,40,Male,Divorced,Human Resources,27,23,24,16,No,3,2,4,1,95000,No
+917,Customer Support,Analyst,55,Male,Married,Business,19,5,14,20,Yes,3,4,3,3,75100,No
+918,Operations,Senior Analyst,54,Male,Married,Life Sciences,3,13,15,29,No,4,3,3,0,119100,No
+919,Sales-West,Representative,49,Female,Single,Marketing,3,0,4,11,No,3,4,3,0,32700,No
+920,Customer Support,Senior Analyst,31,Male,Married,Human Resources,15,1,7,14,Yes,1,2,4,1,92500,Yes
+921,R&D-Core,Senior Analyst,57,Female,Divorced,Technical Degree,25,8,9,5,No,4,4,3,1,119500,No
+922,R&D-Core,Analyst,53,Female,Divorced,Marketing,9,1,3,6,No,3,2,3,0,59500,No
+923,R&D-Platform,Representative,22,Male,Married,Human Resources,7,2,8,5,Yes,4,1,4,1,29000,No
+924,Sales-East,Representative,30,Female,Married,Marketing,28,10,18,10,Yes,2,3,3,0,49700,No
+925,R&D-Platform,Analyst,25,Male,Married,Human Resources,19,1,1,6,Yes,2,4,3,0,69200,Yes
+926,Sales-West,Analyst,32,Male,Married,Life Sciences,23,3,9,9,No,3,4,3,0,56700,No
+927,Finance,Associate,47,Female,Married,Human Resources,10,4,6,0,No,2,2,4,2,49600,No
+928,R&D-Platform,Analyst,42,Male,Divorced,Other,6,2,11,7,Yes,3,3,4,2,67100,No
+929,Customer Support,Associate,26,Male,Divorced,Life Sciences,4,1,1,14,Yes,3,3,4,2,33200,No
+930,Operations,Associate,46,Male,Single,Technical Degree,4,0,3,9,No,4,2,3,0,49200,No
+931,R&D-Core,Associate,44,Female,Married,Life Sciences,16,6,14,16,Yes,1,3,3,0,57700,Yes
+932,Sales-West,Representative,55,Female,Divorced,Human Resources,1,1,7,18,Yes,4,3,3,2,39500,No
+933,Operations,Analyst,33,Male,Married,Technical Degree,16,4,10,15,Yes,1,4,3,0,79200,No
+934,R&D-Platform,Representative,55,Male,Divorced,Marketing,6,2,8,13,No,3,3,4,0,32400,No
+935,Sales-East,Analyst,46,Male,Married,Marketing,23,12,14,19,No,3,3,3,0,90800,No
+936,Sales-East,Senior Analyst,30,Male,Divorced,Technical Degree,27,9,15,7,Yes,4,3,3,0,137200,No
+937,Operations,Analyst,33,Male,Single,Life Sciences,23,11,16,13,No,4,3,4,1,58200,No
+938,HR,Associate,50,Female,Divorced,Human Resources,26,8,17,0,No,4,3,3,1,53300,Yes
+939,Sales-East,Analyst,47,Male,Divorced,Marketing,26,3,7,6,Yes,2,3,3,0,70800,No
+940,R&D-Platform,Manager,45,Male,Single,Business,24,0,3,8,No,3,2,3,0,109500,Yes
+941,R&D-Platform,Senior Analyst,36,Female,Married,Other,15,22,22,4,No,4,1,4,1,110000,Yes
+942,R&D-Platform,Associate,36,Male,Single,Other,12,2,4,14,Yes,4,3,3,3,49400,No
+943,Operations,Senior Analyst,42,Female,Married,Technical Degree,14,2,5,12,No,3,3,3,0,91800,No
+944,Operations,Executive,51,Female,Married,Marketing,14,8,16,5,Yes,3,4,4,2,203400,No
+945,Sales-East,Representative,30,Female,Married,Technical Degree,6,2,9,13,No,2,1,3,0,38100,No
+946,Sales-East,Representative,56,Male,Divorced,Marketing,17,3,4,10,No,3,3,3,2,42300,No
+947,R&D-Core,Associate,28,Female,Single,Business,3,1,1,6,No,4,2,3,0,51800,No
+948,Customer Support,Associate,39,Male,Single,Technical Degree,24,4,9,19,No,4,4,3,1,52800,No
+949,Finance,Associate,33,Male,Divorced,Other,3,5,10,6,No,4,2,3,1,44000,No
+950,Finance,Analyst,56,Female,Single,Marketing,1,1,10,15,Yes,3,2,3,0,59400,Yes
+951,HR,Analyst,27,Male,Single,Marketing,26,2,8,6,No,1,3,3,2,46100,No
+952,Sales-West,Associate,25,Male,Single,Business,6,4,12,15,No,2,2,3,1,43800,No
+953,Customer Support,Senior Analyst,47,Female,Married,Life Sciences,2,5,8,12,Yes,3,3,3,3,99400,No
+954,Sales-East,Senior Analyst,27,Male,Married,Technical Degree,17,3,9,10,No,4,3,3,2,98500,No
+955,Finance,Associate,59,Male,Divorced,Business,2,3,12,4,No,3,4,4,0,48700,No
+956,Sales-West,Analyst,50,Female,Married,Technical Degree,5,1,1,7,No,4,3,4,2,61500,No
+957,R&D-Platform,Representative,55,Male,Divorced,Business,13,1,1,15,No,3,3,3,1,27500,Yes
+958,Operations,Analyst,32,Male,Married,Human Resources,28,0,9,16,No,4,3,3,2,50600,No
+959,R&D-Platform,Analyst,50,Female,Divorced,Marketing,25,7,8,3,Yes,4,1,3,1,62300,Yes
+960,Sales-East,Manager,43,Male,Single,Human Resources,2,1,5,14,Yes,1,1,3,1,114300,Yes
+961,R&D-Core,Executive,37,Male,Married,Marketing,11,4,13,2,No,3,2,3,1,186400,No
+962,Finance,Manager,40,Female,Married,Technical Degree,29,3,5,9,No,3,3,4,0,164500,No
+963,Sales-East,Analyst,21,Male,Married,Life Sciences,5,16,24,8,Yes,4,4,3,1,99200,No
+964,Sales-West,Representative,26,Female,Married,Life Sciences,7,4,4,15,No,4,1,3,2,34200,Yes
+965,Sales-East,Manager,25,Female,Divorced,Life Sciences,24,1,8,16,Yes,2,2,3,0,113100,No
+966,HR,Manager,50,Female,Single,Business,6,15,16,13,No,2,1,3,0,161800,No
+967,R&D-Core,Associate,31,Male,Single,Life Sciences,4,4,10,9,No,3,4,3,2,46600,No
+968,R&D-Platform,Senior Analyst,49,Male,Married,Life Sciences,13,12,12,14,No,3,4,3,2,107800,No
+969,R&D-Core,Executive,48,Female,Married,Life Sciences,26,6,15,8,Yes,3,3,3,0,159300,Yes
+970,Finance,Representative,26,Female,Single,Other,19,17,22,8,No,3,2,4,0,60000,No
+971,Sales-West,Manager,33,Male,Single,Other,29,8,13,9,No,1,4,3,1,160200,No
+972,Operations,Analyst,31,Male,Single,Marketing,29,2,5,14,No,3,2,3,2,68200,No
+973,Operations,Associate,25,Male,Single,Human Resources,19,2,11,15,No,1,3,3,0,48100,No
+974,R&D-Platform,Associate,52,Male,Single,Marketing,14,2,4,4,No,1,3,3,0,50100,No
+975,R&D-Platform,Representative,35,Male,Single,Marketing,28,2,11,11,Yes,4,2,3,0,35300,Yes
+976,Customer Support,Analyst,56,Male,Single,Human Resources,27,7,15,11,Yes,1,2,3,2,55000,No
+977,Sales-West,Manager,53,Female,Single,Other,16,1,1,5,No,3,1,3,3,124800,No
+978,Customer Support,Manager,54,Male,Married,Other,26,0,0,13,Yes,4,4,4,0,119700,No
+979,Sales-West,Analyst,49,Male,Single,Life Sciences,13,1,7,10,No,1,1,4,0,51700,No
+980,Finance,Analyst,40,Male,Single,Technical Degree,29,1,5,7,Yes,1,4,4,0,44800,No
+981,R&D-Core,Senior Analyst,37,Male,Married,Business,12,3,6,5,No,1,4,3,0,104800,Yes
+982,HR,Manager,35,Male,Divorced,Technical Degree,11,18,26,14,No,4,3,3,1,161000,No
+983,Operations,Senior Analyst,45,Female,Divorced,Marketing,11,8,11,9,No,3,2,3,1,102200,No
+984,Sales-East,Senior Analyst,38,Male,Married,Technical Degree,14,12,20,18,Yes,1,3,4,1,105200,Yes
+985,Customer Support,Senior Analyst,54,Male,Single,Technical Degree,1,6,7,10,No,4,2,3,1,120000,No
+986,HR,Senior Analyst,27,Female,Single,Life Sciences,1,4,11,4,No,3,3,3,1,77600,No
+987,R&D-Core,Associate,35,Female,Married,Human Resources,16,1,6,6,No,4,2,4,2,51900,No
+988,R&D-Core,Analyst,40,Female,Married,Marketing,12,9,14,18,No,1,3,3,0,52500,Yes
+989,Sales-East,Associate,31,Female,Married,Marketing,28,1,10,8,No,3,3,3,0,51200,No
+990,Sales-West,Analyst,30,Male,Married,Other,11,1,2,12,No,4,3,3,2,57700,No
+991,Finance,Senior Analyst,42,Male,Married,Human Resources,17,1,1,11,No,3,3,4,1,63300,No
+992,Sales-East,Representative,27,Male,Divorced,Other,4,2,5,16,Yes,3,3,3,0,37100,Yes
+993,Finance,Analyst,51,Female,Single,Technical Degree,4,0,5,6,Yes,1,2,4,1,59100,Yes
+994,Operations,Associate,35,Female,Single,Marketing,25,2,9,13,No,2,2,3,1,38100,No
+995,Operations,Senior Analyst,50,Male,Single,Business,18,2,6,22,No,2,2,4,1,93400,Yes
+996,Operations,Representative,23,Female,Married,Other,9,14,21,9,No,3,2,3,0,49200,No
+997,Customer Support,Analyst,51,Female,Married,Marketing,26,10,15,21,Yes,1,3,3,2,82000,Yes
+998,Sales-West,Senior Analyst,39,Female,Single,Life Sciences,4,3,9,12,Yes,1,2,3,0,76400,Yes
+999,Operations,Senior Analyst,54,Male,Single,Other,21,17,18,17,Yes,3,4,3,2,115900,No
+1000,Sales-West,Manager,48,Male,Married,Business,4,3,11,11,No,4,1,3,0,114700,No
+1001,Customer Support,Executive,52,Male,Single,Technical Degree,3,2,2,22,Yes,2,4,3,2,192300,Yes
+1002,Customer Support,Senior Analyst,46,Female,Single,Life Sciences,1,5,10,6,Yes,3,3,3,2,90800,No
+1003,Finance,Senior Analyst,25,Female,Married,Human Resources,18,1,2,8,No,3,3,3,2,76400,No
+1004,R&D-Platform,Analyst,59,Female,Divorced,Technical Degree,22,8,16,10,Yes,4,3,3,1,86200,No
+1005,Sales-West,Analyst,36,Female,Married,Technical Degree,8,1,1,4,No,3,3,3,2,57400,No
+1006,R&D-Platform,Executive,55,Female,Married,Technical Degree,16,4,13,7,No,3,2,3,2,226800,Yes
+1007,R&D-Core,Manager,40,Male,Married,Human Resources,23,12,15,18,No,1,4,3,1,178500,No
+1008,Sales-East,Executive,45,Female,Married,Technical Degree,16,0,1,11,Yes,1,3,3,0,163100,No
+1009,Sales-East,Executive,28,Male,Single,Other,5,0,0,18,No,3,4,3,0,138900,No
+1010,Customer Support,Senior Analyst,56,Female,Single,Other,12,4,5,7,Yes,1,3,4,2,96900,Yes
+1011,Operations,Analyst,51,Male,Married,Life Sciences,22,15,17,20,Yes,2,4,4,0,93500,No
+1012,Sales-East,Manager,38,Female,Married,Technical Degree,28,9,18,16,No,1,3,3,0,172900,No
+1013,Sales-East,Representative,37,Female,Single,Other,24,6,9,14,No,4,3,3,2,43000,No
+1014,Sales-West,Representative,52,Male,Divorced,Life Sciences,11,2,4,3,Yes,2,2,3,2,38800,No
+1015,Sales-East,Analyst,27,Female,Divorced,Marketing,4,1,7,13,No,3,4,3,2,56700,No
+1016,Sales-West,Executive,32,Female,Single,Life Sciences,14,1,5,3,No,3,1,3,1,168000,No
+1017,HR,Manager,26,Male,Married,Technical Degree,10,0,8,17,No,4,1,3,1,165800,No
+1018,R&D-Core,Analyst,41,Male,Married,Business,21,6,10,5,No,2,2,3,0,80100,No
+1019,R&D-Core,Representative,35,Male,Single,Marketing,7,1,7,3,No,2,4,3,0,30000,No
+1020,Sales-West,Representative,59,Female,Married,Life Sciences,27,5,13,5,No,4,2,3,0,41500,No
+1021,Finance,Associate,55,Female,Single,Life Sciences,4,6,14,13,No,3,1,3,0,55700,No
+1022,Sales-West,Representative,44,Female,Divorced,Life Sciences,25,2,2,2,No,4,2,3,1,28800,No
+1023,R&D-Core,Manager,50,Male,Single,Business,7,5,10,0,No,3,3,4,1,132300,No
+1024,R&D-Platform,Analyst,40,Male,Divorced,Marketing,26,7,11,10,Yes,1,3,3,3,77100,Yes
+1025,Operations,Analyst,37,Male,Single,Life Sciences,28,1,4,13,Yes,1,1,3,2,73800,Yes
+1026,Sales-West,Senior Analyst,51,Male,Married,Other,6,3,7,16,Yes,1,3,3,1,110200,Yes
+1027,Finance,Analyst,35,Male,Single,Technical Degree,28,20,24,10,No,1,3,3,0,91300,Yes
+1028,R&D-Core,Analyst,33,Male,Divorced,Technical Degree,28,17,17,11,No,4,2,3,0,86600,No
+1029,Operations,Representative,26,Male,Divorced,Marketing,10,7,13,13,No,4,2,4,0,39700,No
+1030,R&D-Core,Manager,53,Male,Single,Life Sciences,24,3,7,4,No,3,2,3,0,133600,No
+1031,R&D-Platform,Senior Analyst,51,Female,Married,Business,3,7,7,9,Yes,4,3,3,0,112900,Yes
+1032,Customer Support,Manager,21,Female,Married,Human Resources,10,0,8,15,Yes,1,3,4,0,104200,No
+1033,Finance,Senior Analyst,53,Male,Married,Technical Degree,1,4,13,12,Yes,2,3,3,0,92600,No
+1034,Sales-East,Senior Analyst,30,Female,Married,Technical Degree,24,10,10,8,Yes,3,3,3,3,102000,Yes
+1035,Sales-East,Senior Analyst,55,Female,Divorced,Life Sciences,7,18,25,11,Yes,3,3,3,1,117900,No
+1036,Operations,Representative,27,Female,Single,Human Resources,28,22,24,15,Yes,1,2,3,0,54200,No
+1037,Sales-East,Senior Analyst,27,Female,Divorced,Technical Degree,20,1,2,10,Yes,4,1,4,2,106400,No
+1038,R&D-Core,Analyst,31,Male,Single,Other,22,2,8,3,No,4,2,4,1,76700,Yes
+1039,Operations,Manager,57,Female,Married,Marketing,11,6,10,7,Yes,2,3,3,3,166000,No
+1040,Sales-East,Senior Analyst,57,Male,Married,Business,22,4,9,8,Yes,2,2,3,1,75600,No
+1041,Sales-West,Senior Analyst,46,Male,Married,Technical Degree,27,7,13,7,No,3,3,3,1,106100,No
+1042,Sales-West,Analyst,21,Male,Married,Human Resources,25,1,8,4,No,3,2,3,2,79400,No
+1043,Sales-East,Senior Analyst,45,Male,Married,Marketing,1,9,15,12,No,3,2,3,0,112800,No
+1044,R&D-Platform,Senior Analyst,32,Female,Single,Other,26,6,9,9,No,4,3,3,1,91200,No
+1045,HR,Analyst,49,Male,Single,Technical Degree,16,6,10,12,No,3,3,3,2,75500,No
+1046,R&D-Core,Executive,43,Female,Divorced,Human Resources,23,7,8,4,No,1,3,3,0,209900,No
+1047,Sales-East,Associate,55,Female,Single,Life Sciences,26,2,6,11,No,2,3,3,1,45100,No
+1048,Customer Support,Manager,48,Female,Married,Technical Degree,3,10,13,14,Yes,4,3,3,1,160000,Yes
+1049,Customer Support,Analyst,33,Male,Single,Other,16,8,8,11,Yes,4,3,3,0,78300,No
+1050,HR,Representative,51,Male,Married,Other,7,0,8,13,Yes,2,1,3,0,34100,No
+1051,Sales-East,Manager,30,Male,Divorced,Human Resources,12,1,4,18,No,1,2,3,3,122700,Yes
+1052,HR,Executive,35,Female,Married,Other,4,5,9,17,No,4,3,4,2,180300,No
+1053,Finance,Analyst,30,Male,Married,Life Sciences,18,1,7,6,No,2,4,3,2,61200,No
+1054,R&D-Core,Analyst,29,Male,Married,Business,14,0,3,25,No,2,3,3,0,64900,No
+1055,Customer Support,Senior Analyst,36,Male,Single,Technical Degree,2,11,11,16,No,3,4,3,1,113800,No
+1056,R&D-Core,Senior Analyst,54,Male,Single,Technical Degree,2,13,20,6,No,1,2,3,1,115100,No
+1057,R&D-Platform,Associate,38,Male,Single,Other,13,10,19,10,No,3,1,4,0,48000,No
+1058,Sales-East,Analyst,25,Male,Married,Technical Degree,16,0,5,19,No,4,4,3,2,67900,No
+1059,HR,Senior Analyst,50,Female,Divorced,Human Resources,19,2,11,17,No,2,2,3,0,77000,No
+1060,Customer Support,Analyst,23,Male,Single,Life Sciences,27,8,9,20,No,3,2,4,2,80200,No
+1061,Customer Support,Associate,42,Female,Married,Marketing,13,7,7,9,No,1,3,3,0,51800,No
+1062,Sales-West,Analyst,30,Female,Single,Marketing,29,17,20,4,No,2,3,3,3,99000,No
+1063,Operations,Senior Analyst,56,Male,Single,Business,28,4,11,16,Yes,1,4,3,1,106800,Yes
+1064,Finance,Analyst,40,Female,Divorced,Business,2,4,13,3,No,1,2,3,1,64300,Yes
+1065,R&D-Core,Analyst,37,Male,Single,Technical Degree,6,6,15,9,No,2,2,4,0,44400,No
+1066,R&D-Core,Manager,57,Male,Single,Technical Degree,20,0,0,3,No,3,1,3,1,89700,No
+1067,Customer Support,Representative,38,Female,Divorced,Human Resources,5,4,5,22,No,1,3,3,0,34400,No
+1068,Sales-West,Manager,49,Female,Single,Other,5,8,15,13,Yes,3,3,3,2,131400,Yes
+1069,Finance,Associate,38,Male,Single,Business,25,2,11,8,No,3,3,4,2,49200,Yes
+1070,Finance,Analyst,42,Female,Divorced,Business,26,9,12,4,No,2,2,3,2,94100,No
+1071,R&D-Platform,Associate,40,Male,Single,Life Sciences,20,1,9,9,No,3,2,3,2,49900,No
+1072,Customer Support,Analyst,41,Male,Divorced,Human Resources,1,4,11,9,No,2,3,3,1,65800,No
+1073,R&D-Platform,Associate,38,Male,Single,Life Sciences,22,0,6,4,No,1,4,3,1,52200,No
+1074,R&D-Platform,Analyst,48,Male,Married,Business,3,1,2,12,No,4,2,3,2,60100,No
+1075,Sales-West,Senior Analyst,39,Male,Single,Human Resources,19,10,13,7,No,4,2,3,0,121500,Yes
+1076,Operations,Associate,45,Male,Married,Technical Degree,10,4,10,19,No,3,3,3,2,52500,No
+1077,R&D-Core,Associate,49,Male,Divorced,Life Sciences,29,3,7,8,No,4,4,3,0,37300,No
+1078,Finance,Analyst,34,Female,Divorced,Business,1,1,9,4,No,3,2,3,1,68800,Yes
+1079,R&D-Core,Representative,27,Female,Single,Human Resources,2,2,11,3,No,4,2,3,1,44900,No
+1080,Operations,Associate,24,Male,Married,Technical Degree,20,2,2,13,No,3,3,4,2,45500,No
+1081,Operations,Representative,44,Male,Single,Marketing,2,5,11,11,No,4,3,4,2,43800,No
+1082,Sales-East,Senior Analyst,28,Female,Single,Technical Degree,6,2,11,10,Yes,3,3,3,0,95400,No
+1083,Operations,Representative,34,Male,Single,Business,29,3,12,27,No,3,3,3,1,36800,Yes
+1084,HR,Associate,51,Male,Married,Business,21,1,2,8,No,3,3,3,0,44100,No
+1085,Sales-East,Representative,39,Female,Married,Other,8,3,11,12,No,4,3,3,0,42600,No
+1086,R&D-Platform,Senior Analyst,45,Male,Married,Life Sciences,28,1,1,6,No,1,3,3,3,80400,Yes
+1087,Sales-East,Analyst,26,Female,Married,Marketing,24,3,5,14,No,4,2,3,1,60900,No
+1088,HR,Representative,52,Female,Married,Other,14,0,8,3,No,4,3,3,2,38500,No
+1089,Sales-West,Associate,44,Male,Single,Life Sciences,4,2,2,3,No,4,1,3,0,52900,No
+1090,R&D-Core,Senior Analyst,22,Male,Single,Other,14,8,13,13,Yes,2,3,3,2,125000,No
+1091,R&D-Core,Senior Analyst,39,Male,Married,Business,8,6,11,9,No,4,1,3,2,92900,No
+1092,HR,Representative,56,Male,Divorced,Business,29,2,2,15,No,3,1,4,0,31000,No
+1093,Customer Support,Associate,39,Female,Married,Technical Degree,17,1,6,10,Yes,3,4,3,0,52300,No
+1094,Operations,Manager,35,Male,Married,Technical Degree,10,4,10,11,Yes,1,2,3,1,108900,Yes
+1095,R&D-Core,Senior Analyst,22,Male,Divorced,Marketing,19,2,6,5,No,4,2,4,1,85300,No
+1096,HR,Analyst,57,Female,Divorced,Technical Degree,26,7,12,4,No,2,4,3,0,70400,No
+1097,Sales-East,Manager,29,Female,Married,Other,6,3,4,9,Yes,3,1,4,2,157600,No
+1098,R&D-Core,Analyst,44,Male,Married,Technical Degree,21,2,11,9,No,2,3,3,2,63600,No
+1099,Operations,Analyst,37,Male,Single,Life Sciences,10,0,9,16,No,4,3,3,0,51000,No
+1100,Sales-East,Manager,42,Male,Married,Technical Degree,1,11,20,13,No,4,3,3,0,158600,No
+1101,Customer Support,Senior Analyst,25,Female,Married,Life Sciences,11,5,12,13,Yes,4,3,3,0,113200,No
+1102,Finance,Representative,52,Male,Married,Marketing,9,3,11,11,No,4,3,3,0,29700,No
+1103,R&D-Core,Executive,27,Male,Single,Marketing,8,1,5,11,Yes,4,4,3,1,155300,No
+1104,Customer Support,Manager,45,Female,Divorced,Business,21,14,19,13,Yes,3,3,3,1,191000,No
+1105,Sales-West,Associate,30,Male,Single,Technical Degree,23,6,10,14,Yes,1,2,3,3,53700,Yes
+1106,Operations,Associate,47,Female,Married,Other,2,5,13,14,No,1,3,3,1,45200,No
+1107,Sales-East,Analyst,24,Male,Divorced,Business,22,1,1,13,Yes,4,1,3,0,60100,No
+1108,Sales-East,Associate,27,Male,Single,Human Resources,25,2,9,13,Yes,2,2,3,1,48000,Yes
+1109,Customer Support,Senior Analyst,56,Male,Divorced,Marketing,17,3,5,17,No,4,4,3,2,79500,No
+1110,R&D-Platform,Executive,44,Female,Married,Other,27,1,3,20,No,3,1,4,1,172000,Yes
+1111,Sales-East,Associate,52,Male,Married,Human Resources,12,1,8,13,Yes,4,2,4,2,54400,No
+1112,R&D-Platform,Analyst,34,Male,Single,Marketing,23,3,10,5,No,2,1,4,0,67700,Yes
+1113,R&D-Core,Senior Analyst,50,Male,Married,Marketing,1,8,14,3,No,1,4,4,1,119400,No
+1114,HR,Analyst,23,Male,Single,Other,24,8,10,9,No,4,1,4,2,73900,No
+1115,Customer Support,Manager,48,Male,Married,Human Resources,22,6,13,10,No,2,3,3,0,131600,No
+1116,Customer Support,Senior Analyst,26,Male,Married,Other,18,3,7,12,No,3,3,3,1,95800,No
+1117,Sales-East,Analyst,46,Female,Married,Human Resources,9,4,12,8,No,4,4,3,1,59600,No
+1118,HR,Associate,39,Male,Married,Business,24,2,2,11,No,2,1,3,2,49700,No
+1119,Operations,Senior Analyst,45,Male,Married,Business,12,2,6,14,No,4,1,3,3,86500,No
+1120,R&D-Platform,Manager,31,Male,Married,Other,14,11,12,6,No,1,4,4,0,153500,No
+1121,Customer Support,Manager,25,Male,Married,Marketing,21,12,20,11,No,4,2,3,3,157400,No
+1122,Sales-East,Senior Analyst,50,Female,Divorced,Business,12,9,14,11,Yes,4,3,4,0,95200,No
+1123,Customer Support,Analyst,38,Male,Single,Technical Degree,5,2,3,21,Yes,3,4,4,2,73900,No
+1124,HR,Associate,25,Female,Married,Business,21,2,10,13,No,2,2,3,0,38900,No
+1125,Operations,Associate,37,Male,Single,Life Sciences,6,0,3,7,No,1,2,3,0,46100,Yes
+1126,Customer Support,Representative,21,Female,Divorced,Technical Degree,14,12,19,17,Yes,4,4,3,0,40200,No
+1127,Customer Support,Associate,55,Female,Single,Other,16,10,15,9,Yes,4,4,3,2,64700,No
+1128,Sales-East,Associate,59,Male,Divorced,Life Sciences,10,1,2,13,No,4,4,4,0,45000,No
+1129,Finance,Analyst,36,Female,Married,Marketing,12,3,7,13,Yes,4,3,3,0,66700,No
+1130,Sales-West,Analyst,33,Female,Married,Life Sciences,8,2,7,7,No,3,3,3,1,67000,No
+1131,Sales-West,Associate,45,Male,Married,Business,20,0,6,3,No,4,2,3,0,46800,Yes
+1132,R&D-Core,Representative,40,Female,Married,Business,13,6,9,3,No,4,3,3,0,42100,No
+1133,HR,Manager,50,Male,Married,Human Resources,19,4,5,4,Yes,3,3,3,0,140000,No
+1134,Finance,Analyst,29,Male,Married,Marketing,12,0,2,21,No,4,3,3,1,62300,No
+1135,Operations,Manager,35,Female,Divorced,Other,24,3,6,19,No,2,3,3,0,123200,No
+1136,Sales-East,Senior Analyst,29,Female,Married,Business,22,9,12,15,Yes,4,2,4,0,103800,Yes
+1137,Sales-West,Representative,58,Male,Divorced,Technical Degree,4,2,11,4,No,3,4,3,1,35900,No
+1138,R&D-Core,Analyst,36,Male,Married,Life Sciences,23,0,6,4,No,3,3,3,0,54600,No
+1139,Customer Support,Analyst,46,Male,Married,Human Resources,15,7,16,9,Yes,4,4,3,1,67700,No
+1140,HR,Senior Analyst,51,Female,Divorced,Business,24,5,14,9,No,4,3,3,1,113000,No
+1141,R&D-Platform,Analyst,45,Male,Single,Marketing,20,3,3,3,Yes,2,3,3,0,53900,Yes
+1142,Customer Support,Executive,22,Female,Divorced,Other,25,6,6,18,Yes,4,2,3,1,255100,No
+1143,Finance,Analyst,59,Female,Divorced,Business,27,13,13,4,No,4,3,3,0,77900,No
+1144,Sales-West,Representative,53,Female,Divorced,Human Resources,11,2,4,12,No,3,3,3,0,39800,Yes
+1145,Sales-East,Associate,32,Male,Married,Human Resources,1,19,22,15,Yes,3,4,4,1,70500,No
+1146,R&D-Platform,Analyst,59,Female,Married,Life Sciences,11,7,14,5,No,4,3,3,2,70800,No
+1147,Operations,Analyst,55,Female,Divorced,Life Sciences,22,1,2,13,No,2,4,4,0,65800,No
+1148,HR,Senior Analyst,42,Male,Married,Business,25,8,12,5,Yes,4,1,3,0,126700,No
+1149,Sales-East,Associate,37,Male,Divorced,Life Sciences,20,8,16,32,Yes,4,4,4,0,54900,Yes
+1150,R&D-Platform,Senior Analyst,35,Male,Married,Technical Degree,6,1,4,9,No,3,3,4,0,87000,No
+1151,R&D-Core,Senior Analyst,30,Female,Divorced,Marketing,2,4,8,9,Yes,2,3,4,1,88800,Yes
+1152,HR,Analyst,30,Male,Married,Other,21,1,9,7,Yes,2,3,3,1,76700,No
+1153,HR,Representative,25,Female,Married,Other,24,2,9,3,No,2,4,3,1,42200,No
+1154,Operations,Associate,28,Male,Single,Life Sciences,16,5,5,20,No,4,3,3,0,58600,No
+1155,R&D-Core,Associate,59,Female,Single,Technical Degree,5,3,5,3,No,2,4,4,1,49100,No
+1156,R&D-Core,Manager,33,Female,Single,Marketing,20,6,15,7,No,2,3,4,1,109000,No
+1157,HR,Associate,29,Female,Married,Life Sciences,17,1,4,2,Yes,3,3,3,3,48900,No
+1158,Operations,Analyst,54,Female,Married,Other,21,0,2,14,Yes,2,4,3,1,47000,Yes
+1159,Finance,Analyst,44,Male,Divorced,Business,1,1,4,6,Yes,2,3,3,2,57000,Yes
+1160,R&D-Platform,Analyst,21,Female,Single,Other,20,0,8,10,No,4,3,3,0,66800,No
+1161,Customer Support,Associate,30,Male,Single,Marketing,28,4,12,16,Yes,4,4,3,2,46700,Yes
+1162,R&D-Platform,Executive,51,Male,Divorced,Other,7,7,15,5,Yes,4,2,3,0,199300,No
+1163,Operations,Manager,31,Female,Married,Life Sciences,27,10,19,8,No,4,2,3,0,115700,No
+1164,Sales-West,Senior Analyst,47,Female,Single,Human Resources,1,5,13,5,Yes,3,3,4,3,105900,No
+1165,Sales-East,Senior Analyst,43,Female,Married,Life Sciences,1,5,8,22,No,2,2,3,3,102400,No
+1166,Customer Support,Associate,21,Male,Single,Business,28,2,8,9,No,4,2,3,0,44800,No
+1167,R&D-Core,Manager,25,Female,Divorced,Human Resources,10,6,9,13,No,3,2,3,2,147400,No
+1168,Customer Support,Manager,23,Female,Single,Other,27,0,6,18,Yes,2,1,3,1,96400,Yes
+1169,HR,Analyst,53,Male,Divorced,Business,16,13,14,14,No,2,4,4,0,73800,Yes
+1170,R&D-Platform,Manager,49,Male,Married,Human Resources,15,6,6,7,No,4,2,4,0,144500,No
+1171,Sales-East,Associate,26,Female,Divorced,Technical Degree,2,10,12,11,No,3,1,3,0,64500,No
+1172,Customer Support,Senior Analyst,47,Male,Single,Life Sciences,20,3,7,8,No,4,3,3,0,92100,Yes
+1173,Sales-East,Senior Analyst,27,Female,Divorced,Other,12,2,10,12,Yes,2,2,4,1,76500,Yes
+1174,Operations,Analyst,33,Female,Single,Life Sciences,3,0,6,12,Yes,1,2,3,1,56300,Yes
+1175,Customer Support,Representative,47,Female,Married,Life Sciences,12,1,10,8,No,1,3,3,3,40800,No
+1176,R&D-Core,Senior Analyst,54,Female,Married,Life Sciences,14,2,4,15,No,1,3,3,1,83400,Yes
+1177,Sales-East,Senior Analyst,32,Female,Married,Other,20,9,15,22,Yes,2,3,4,2,110900,Yes
+1178,Operations,Senior Analyst,29,Female,Married,Life Sciences,18,5,11,8,No,4,3,3,2,102600,Yes
+1179,R&D-Platform,Associate,21,Male,Married,Marketing,23,0,4,10,No,3,2,4,0,41900,No
+1180,Sales-East,Representative,37,Male,Single,Life Sciences,21,10,15,16,No,3,3,3,0,45500,No
+1181,R&D-Platform,Manager,43,Female,Single,Other,26,1,4,13,Yes,1,4,4,1,96600,Yes
+1182,Sales-West,Executive,25,Female,Married,Technical Degree,7,0,6,7,No,4,3,3,2,167000,No
+1183,R&D-Core,Senior Analyst,46,Female,Married,Business,26,3,12,5,No,3,3,3,0,92800,No
+1184,Finance,Senior Analyst,46,Male,Married,Human Resources,3,1,9,14,No,2,3,3,0,94000,No
+1185,Operations,Associate,27,Male,Married,Human Resources,3,1,5,7,Yes,3,2,3,0,53400,No
+1186,Customer Support,Associate,24,Male,Divorced,Other,28,2,5,18,Yes,4,3,3,0,44800,No
+1187,Sales-West,Associate,28,Female,Single,Other,2,9,9,4,No,4,1,3,3,60200,No
+1188,R&D-Platform,Analyst,27,Female,Divorced,Technical Degree,25,2,8,9,No,4,2,3,2,62400,No
+1189,R&D-Platform,Analyst,28,Male,Single,Marketing,9,4,7,7,No,3,2,3,3,60600,No
+1190,Operations,Representative,50,Male,Married,Life Sciences,6,6,6,15,No,3,4,4,0,37300,No
+1191,Sales-East,Executive,29,Male,Divorced,Life Sciences,5,2,5,9,No,3,4,3,0,188800,Yes
+1192,R&D-Platform,Executive,40,Male,Single,Other,24,5,12,10,No,1,3,3,1,206500,No
+1193,Operations,Executive,51,Male,Married,Marketing,4,2,10,16,Yes,2,3,3,0,173000,No
+1194,R&D-Core,Associate,46,Male,Single,Other,24,1,9,16,No,4,1,3,0,61500,No
+1195,Sales-West,Analyst,37,Male,Single,Human Resources,9,2,7,8,No,3,3,3,0,63200,No
+1196,HR,Associate,49,Female,Married,Other,6,0,6,7,Yes,3,3,4,1,48400,No
+1197,R&D-Core,Analyst,21,Male,Married,Human Resources,3,5,5,4,No,4,4,3,1,66600,No
+1198,Operations,Associate,44,Female,Single,Life Sciences,24,1,7,21,Yes,4,3,3,0,61700,Yes
+1199,Sales-East,Analyst,34,Male,Divorced,Business,9,9,15,20,Yes,2,1,4,2,55500,Yes
+1200,Sales-West,Senior Analyst,28,Male,Single,Human Resources,12,9,14,15,No,2,3,4,1,103000,No
+1201,Sales-East,Manager,27,Female,Single,Marketing,19,2,10,23,No,4,2,3,0,129600,No
+1202,Finance,Analyst,48,Male,Married,Human Resources,10,5,8,9,No,2,4,3,0,78600,No
+1203,R&D-Core,Senior Analyst,58,Female,Married,Life Sciences,4,8,10,18,No,4,1,3,1,104300,Yes
+1204,Operations,Representative,25,Female,Single,Human Resources,5,1,8,20,No,3,3,3,0,31600,No
+1205,Operations,Associate,32,Female,Single,Other,19,2,2,16,Yes,3,2,3,2,56500,No
+1206,Operations,Senior Analyst,31,Male,Single,Marketing,18,2,3,5,No,2,3,3,3,96900,No
+1207,Sales-West,Analyst,40,Female,Single,Human Resources,20,8,9,5,No,4,1,3,1,71800,No
+1208,Sales-East,Analyst,38,Female,Married,Other,18,6,11,6,No,4,4,3,2,68400,No
+1209,R&D-Core,Analyst,47,Female,Married,Business,2,6,8,3,No,3,3,4,0,68400,No
+1210,Operations,Representative,25,Male,Married,Human Resources,15,4,5,12,Yes,2,4,3,2,39800,No
+1211,Customer Support,Senior Analyst,40,Male,Married,Life Sciences,6,0,3,7,Yes,3,3,3,0,67200,Yes
+1212,Sales-East,Analyst,25,Female,Married,Life Sciences,3,1,8,12,Yes,1,2,3,0,62600,No
+1213,Finance,Analyst,52,Male,Single,Marketing,6,22,28,6,Yes,2,3,3,1,91900,No
+1214,Operations,Representative,46,Male,Single,Technical Degree,24,14,19,7,Yes,2,1,3,1,52400,No
+1215,Operations,Senior Analyst,55,Male,Divorced,Human Resources,12,3,5,13,No,1,3,3,0,95900,No
+1216,Finance,Analyst,49,Female,Married,Business,10,2,8,2,No,3,3,3,1,55300,No
+1217,Customer Support,Manager,47,Male,Single,Business,15,6,12,8,Yes,1,3,3,2,163900,No
+1218,Customer Support,Analyst,35,Female,Single,Marketing,8,0,1,15,No,1,2,3,0,65200,No
+1219,R&D-Core,Representative,53,Female,Divorced,Technical Degree,18,3,6,6,Yes,1,1,3,1,33900,Yes
+1220,Sales-East,Associate,36,Male,Married,Business,19,2,6,14,Yes,4,3,3,1,41500,No
+1221,Finance,Executive,30,Female,Married,Business,19,0,2,10,No,1,4,4,0,164400,Yes
+1222,Sales-East,Representative,29,Female,Divorced,Marketing,6,3,9,14,Yes,4,3,3,3,39600,No
+1223,R&D-Core,Analyst,41,Female,Single,Marketing,13,3,11,14,No,4,3,3,1,75000,No
+1224,Operations,Analyst,41,Female,Married,Technical Degree,27,4,8,17,Yes,3,2,3,0,59700,Yes
+1225,HR,Representative,30,Male,Single,Marketing,17,8,15,4,No,4,2,3,1,39200,No
+1226,R&D-Platform,Analyst,43,Male,Married,Marketing,19,4,11,6,No,1,3,3,2,71100,No
+1227,Operations,Senior Analyst,29,Female,Married,Technical Degree,25,8,9,13,No,4,3,3,1,104300,No
+1228,Sales-West,Analyst,57,Male,Married,Life Sciences,23,1,1,12,No,3,4,3,0,61100,No
+1229,Operations,Associate,22,Male,Single,Life Sciences,29,5,12,17,No,3,3,3,2,50800,No
+1230,Operations,Analyst,22,Female,Married,Other,10,0,3,12,Yes,4,2,3,0,57400,Yes
+1231,R&D-Core,Manager,33,Female,Married,Human Resources,12,5,5,16,No,2,2,4,2,166200,No
+1232,R&D-Core,Senior Analyst,56,Female,Divorced,Technical Degree,13,4,5,19,No,2,3,3,0,105900,No
+1233,Sales-East,Manager,29,Female,Married,Technical Degree,12,1,2,23,Yes,4,2,3,0,118100,No
+1234,Operations,Manager,59,Male,Single,Business,8,2,9,11,No,2,3,3,1,145700,No
+1235,Sales-West,Manager,34,Female,Single,Technical Degree,11,8,14,10,No,4,3,3,0,181700,No
+1236,Sales-East,Analyst,34,Male,Married,Other,8,4,7,15,No,2,3,3,2,70700,No
+1237,Operations,Senior Analyst,25,Male,Divorced,Business,24,3,4,13,Yes,3,3,3,0,95600,Yes
+1238,HR,Manager,49,Female,Single,Marketing,13,0,7,13,No,4,3,4,2,112400,No
+1239,Finance,Associate,54,Female,Married,Human Resources,7,4,9,4,No,4,3,3,2,50900,No
+1240,Customer Support,Analyst,53,Female,Single,Life Sciences,23,0,7,15,No,4,2,4,0,61300,Yes
+1241,Sales-East,Associate,26,Male,Divorced,Technical Degree,22,3,7,18,Yes,4,2,4,1,56500,No
+1242,Sales-East,Manager,46,Male,Single,Human Resources,15,1,1,14,No,3,4,3,1,109000,No
+1243,R&D-Platform,Analyst,38,Female,Single,Other,4,2,9,8,Yes,3,3,3,0,50900,Yes
+1244,Sales-East,Senior Analyst,32,Female,Married,Marketing,25,3,9,8,No,3,3,3,1,86600,No
+1245,R&D-Platform,Analyst,50,Male,Divorced,Business,21,5,6,21,No,2,3,3,0,71700,Yes
+1246,Customer Support,Analyst,45,Female,Married,Other,4,3,11,9,No,3,1,3,0,49400,Yes
+1247,Finance,Analyst,54,Male,Single,Technical Degree,27,3,8,9,Yes,3,3,3,3,63500,Yes
+1248,HR,Analyst,55,Male,Married,Life Sciences,9,7,16,9,No,2,4,3,1,65200,No
+1249,Sales-East,Representative,54,Female,Married,Human Resources,18,2,7,9,No,1,3,3,2,31900,Yes
+1250,Sales-West,Analyst,25,Male,Divorced,Business,2,4,4,5,No,1,4,3,0,67900,No
+1251,Operations,Senior Analyst,45,Female,Married,Technical Degree,24,3,7,19,No,2,2,3,0,105000,Yes
+1252,Sales-East,Associate,39,Female,Single,Life Sciences,27,2,2,10,No,3,4,4,0,39700,No
+1253,R&D-Platform,Manager,27,Male,Married,Human Resources,24,1,7,5,Yes,4,2,3,0,126300,No
+1254,Sales-East,Associate,21,Female,Married,Marketing,2,3,7,17,Yes,2,3,4,0,47800,No
+1255,Operations,Analyst,28,Male,Married,Human Resources,6,3,12,18,No,1,4,3,1,70100,No
+1256,Sales-West,Senior Analyst,53,Male,Married,Marketing,16,1,8,11,No,2,3,3,0,87100,No
+1257,R&D-Core,Associate,47,Male,Divorced,Human Resources,2,1,8,4,No,3,2,3,2,42600,No
+1258,HR,Manager,51,Male,Divorced,Other,20,9,10,6,No,3,4,4,0,167700,No
+1259,Finance,Executive,56,Female,Divorced,Life Sciences,25,0,2,1,No,2,2,3,0,188200,Yes
+1260,Operations,Senior Analyst,22,Female,Married,Human Resources,6,7,16,16,Yes,4,3,3,0,89700,No
+1261,Customer Support,Analyst,36,Male,Single,Business,5,1,5,15,No,2,3,3,0,46700,No
+1262,R&D-Core,Analyst,50,Male,Single,Human Resources,29,6,13,4,No,2,3,4,0,64400,No
+1263,Sales-East,Senior Analyst,49,Female,Single,Human Resources,27,6,14,11,Yes,2,3,3,1,102100,No
+1264,Finance,Analyst,47,Male,Married,Life Sciences,29,4,4,7,No,4,4,3,0,73000,No
+1265,Operations,Representative,26,Female,Married,Technical Degree,11,6,8,16,Yes,3,4,3,0,38200,No
+1266,Sales-East,Representative,25,Male,Divorced,Marketing,7,11,18,15,No,2,3,3,2,44100,No
+1267,Customer Support,Associate,37,Female,Divorced,Technical Degree,24,4,4,12,No,1,4,3,2,39200,No
+1268,Sales-West,Senior Analyst,41,Male,Single,Other,5,4,8,3,Yes,3,1,3,2,89400,No
+1269,R&D-Platform,Analyst,33,Male,Married,Life Sciences,9,2,6,4,No,4,3,3,1,64100,No
+1270,R&D-Platform,Associate,47,Male,Single,Human Resources,19,2,3,24,No,4,3,4,2,44100,No
+1271,HR,Representative,29,Female,Married,Human Resources,4,5,12,11,Yes,4,3,3,2,39500,No
+1272,Operations,Representative,34,Male,Divorced,Business,15,1,7,26,No,2,4,4,1,31600,No
+1273,Finance,Senior Analyst,24,Male,Married,Technical Degree,5,9,10,8,No,1,4,3,2,95600,No
+1274,R&D-Core,Senior Analyst,40,Male,Married,Human Resources,18,3,10,6,No,2,3,3,0,95100,Yes
+1275,Finance,Senior Analyst,49,Female,Single,Human Resources,3,13,20,4,No,1,4,3,0,95500,No
+1276,R&D-Platform,Associate,59,Male,Divorced,Marketing,18,2,8,7,No,4,2,3,1,47500,Yes
+1277,R&D-Core,Representative,30,Male,Divorced,Life Sciences,25,11,14,8,No,2,3,3,1,52800,No
+1278,R&D-Core,Analyst,45,Male,Married,Other,28,2,4,8,Yes,4,2,4,1,58800,No
+1279,R&D-Platform,Analyst,22,Female,Single,Business,12,8,13,10,No,2,4,3,1,69500,No
+1280,Sales-West,Analyst,40,Female,Married,Marketing,23,10,11,2,No,1,3,3,0,69700,No
+1281,Sales-West,Analyst,55,Male,Married,Technical Degree,29,0,3,14,No,2,4,3,2,50300,No
+1282,Sales-East,Analyst,23,Male,Divorced,Marketing,10,2,2,12,Yes,3,2,3,2,58700,No
+1283,R&D-Platform,Manager,35,Male,Single,Life Sciences,12,0,0,10,No,4,2,3,3,100900,No
+1284,R&D-Core,Manager,25,Male,Married,Human Resources,22,5,6,4,No,3,2,3,0,133200,No
+1285,Customer Support,Analyst,41,Male,Single,Human Resources,10,3,10,17,No,4,2,3,0,60600,No
+1286,Customer Support,Senior Analyst,54,Male,Single,Life Sciences,14,9,12,25,Yes,3,1,3,2,92500,Yes
+1287,R&D-Core,Manager,39,Male,Single,Other,3,14,15,5,No,4,3,3,0,169500,No
+1288,HR,Representative,49,Female,Divorced,Business,29,4,7,6,No,4,3,3,0,43500,No
+1289,Operations,Associate,32,Male,Married,Life Sciences,16,6,12,16,Yes,4,3,3,3,57600,No
+1290,R&D-Core,Senior Analyst,53,Male,Married,Business,14,1,1,19,No,4,2,4,0,83800,No
+1291,HR,Representative,30,Female,Married,Business,11,1,3,15,No,4,3,4,1,35600,No
+1292,R&D-Platform,Manager,43,Male,Single,Technical Degree,1,0,8,6,Yes,4,3,3,0,103900,Yes
+1293,Finance,Senior Analyst,34,Male,Married,Business,26,9,11,8,No,4,1,3,2,103700,No
+1294,Operations,Representative,43,Female,Married,Human Resources,27,4,5,12,No,3,2,4,1,41900,No
+1295,Sales-East,Representative,31,Male,Single,Technical Degree,23,0,3,24,Yes,1,2,3,0,37800,Yes
+1296,Operations,Associate,41,Male,Married,Technical Degree,9,9,9,9,Yes,3,2,3,1,65700,Yes
+1297,Finance,Manager,31,Female,Divorced,Technical Degree,7,10,12,5,No,4,3,3,1,126300,No
+1298,Customer Support,Analyst,49,Female,Single,Life Sciences,24,3,5,11,Yes,4,4,3,0,76800,Yes
+1299,Finance,Manager,29,Female,Divorced,Technical Degree,12,4,6,9,No,3,3,4,0,139000,No
+1300,Customer Support,Manager,33,Male,Single,Life Sciences,18,8,12,22,Yes,4,4,3,1,174600,Yes
+1301,R&D-Core,Associate,21,Female,Single,Technical Degree,5,10,17,15,No,2,3,3,1,57900,No
+1302,Finance,Executive,40,Female,Divorced,Technical Degree,22,4,10,13,No,3,4,3,0,228800,No
+1303,Sales-West,Manager,21,Male,Divorced,Other,22,6,14,15,No,3,4,3,0,139600,No
+1304,R&D-Platform,Manager,39,Female,Single,Life Sciences,22,3,3,1,No,3,4,3,0,112900,No
+1305,Finance,Associate,54,Male,Married,Technical Degree,13,4,6,8,No,3,2,3,1,51700,No
+1306,Sales-West,Analyst,46,Female,Married,Marketing,27,2,3,13,No,2,3,3,3,59100,No
+1307,Sales-East,Senior Analyst,41,Male,Married,Other,28,0,1,19,No,3,2,3,0,83600,Yes
+1308,Customer Support,Analyst,29,Male,Married,Technical Degree,25,3,3,8,Yes,2,3,4,0,68700,No
+1309,Customer Support,Representative,54,Male,Married,Technical Degree,14,14,14,12,No,3,1,4,1,53700,No
+1310,Finance,Senior Analyst,21,Female,Single,Human Resources,19,9,12,11,Yes,3,2,3,2,115100,No
+1311,R&D-Core,Manager,28,Male,Married,Business,3,2,10,6,No,1,3,3,2,140300,No
+1312,Finance,Analyst,24,Female,Married,Human Resources,10,0,9,11,No,3,2,3,0,48200,No
+1313,Sales-East,Manager,34,Male,Married,Business,29,12,13,26,Yes,4,3,4,0,183800,No
+1314,Finance,Analyst,27,Male,Married,Marketing,15,1,8,7,No,3,2,3,1,55000,No
+1315,HR,Senior Analyst,26,Male,Married,Human Resources,7,10,13,11,No,1,3,4,2,110400,No
+1316,HR,Executive,54,Female,Single,Business,9,2,10,9,Yes,3,3,3,2,179300,No
+1317,R&D-Platform,Analyst,42,Male,Single,Technical Degree,1,0,9,15,No,2,2,3,0,51100,Yes
+1318,Sales-West,Associate,48,Female,Single,Business,10,0,9,20,Yes,3,4,3,1,49200,Yes
+1319,Finance,Senior Analyst,41,Male,Married,Other,27,0,7,11,Yes,2,3,3,1,73700,No
+1320,R&D-Platform,Manager,50,Female,Married,Human Resources,14,5,7,0,No,4,3,4,0,127300,No
+1321,Customer Support,Representative,50,Female,Divorced,Other,27,2,3,12,Yes,4,3,3,2,43100,No
+1322,R&D-Core,Senior Analyst,38,Male,Divorced,Business,13,2,8,4,No,3,3,3,0,64900,No
+1323,Sales-East,Senior Analyst,53,Male,Single,Marketing,5,7,15,14,Yes,2,2,3,1,81100,Yes
+1324,HR,Senior Analyst,25,Male,Married,Marketing,9,13,17,6,No,1,3,3,0,130200,No
+1325,Finance,Senior Analyst,57,Male,Married,Technical Degree,5,2,11,13,No,4,2,3,2,84600,No
+1326,Operations,Senior Analyst,39,Male,Married,Other,9,1,4,19,Yes,2,4,4,2,94700,No
+1327,Operations,Representative,27,Female,Divorced,Other,10,7,12,12,No,4,3,3,0,41800,No
+1328,Sales-East,Manager,54,Male,Married,Human Resources,10,4,11,13,No,4,3,3,1,125100,No
+1329,Customer Support,Associate,47,Male,Single,Other,4,1,1,14,No,2,3,3,2,49700,No
+1330,Sales-West,Analyst,40,Male,Married,Marketing,6,2,7,6,No,4,4,3,1,57500,Yes
+1331,Finance,Executive,31,Female,Married,Technical Degree,1,1,4,11,Yes,4,3,3,0,171100,Yes
+1332,R&D-Core,Manager,45,Male,Married,Business,17,1,7,7,No,1,2,3,0,125600,Yes
+1333,R&D-Core,Analyst,52,Male,Single,Marketing,14,1,7,14,Yes,3,1,4,0,53000,No
+1334,R&D-Platform,Analyst,35,Male,Married,Human Resources,3,4,6,1,Yes,2,3,3,1,54900,No
+1335,R&D-Platform,Senior Analyst,26,Male,Married,Marketing,29,1,10,11,No,3,2,3,2,69300,No
+1336,Finance,Senior Analyst,26,Male,Married,Human Resources,8,13,22,4,No,4,3,3,2,129900,No
+1337,Finance,Representative,51,Male,Married,Marketing,27,3,3,9,No,2,1,3,2,46500,No
+1338,Finance,Associate,45,Male,Married,Technical Degree,5,7,13,9,No,1,3,4,1,61500,No
+1339,R&D-Core,Analyst,30,Male,Married,Technical Degree,22,11,19,10,No,3,2,4,3,72800,No
+1340,Finance,Representative,39,Female,Single,Business,21,4,10,9,Yes,2,2,4,1,36300,Yes
+1341,R&D-Core,Senior Analyst,27,Male,Married,Other,19,5,8,11,Yes,4,4,3,1,85100,No
+1342,HR,Senior Analyst,34,Male,Married,Business,9,7,14,5,No,2,3,3,3,101700,Yes
+1343,R&D-Platform,Associate,52,Male,Married,Marketing,11,5,6,15,No,3,3,3,2,57600,No
+1344,HR,Analyst,31,Male,Married,Human Resources,3,3,12,8,No,1,3,3,2,64100,No
+1345,Sales-East,Analyst,58,Female,Single,Life Sciences,20,2,2,16,No,2,1,3,0,62700,Yes
+1346,R&D-Platform,Associate,48,Male,Divorced,Life Sciences,24,0,1,8,No,4,2,3,1,27200,No
+1347,Sales-West,Representative,23,Male,Divorced,Human Resources,7,1,8,8,No,4,4,3,0,37000,No
+1348,R&D-Core,Representative,33,Male,Divorced,Marketing,13,2,4,8,No,3,3,3,2,31400,Yes
+1349,Sales-East,Associate,33,Male,Married,Other,18,7,15,18,Yes,3,2,3,0,52200,Yes
+1350,Finance,Analyst,43,Female,Divorced,Other,24,4,13,7,No,1,4,3,1,69400,No
+1351,Operations,Associate,59,Male,Divorced,Marketing,15,1,1,18,Yes,3,4,3,0,46500,No
+1352,R&D-Core,Senior Analyst,31,Male,Married,Technical Degree,10,2,8,7,No,3,3,3,0,97100,No
+1353,Sales-East,Senior Analyst,27,Male,Divorced,Human Resources,19,1,1,25,Yes,2,1,3,0,102700,No
+1354,Finance,Senior Analyst,50,Female,Divorced,Human Resources,11,1,9,16,No,4,3,3,0,62900,No
+1355,Sales-East,Associate,45,Male,Single,Business,17,0,1,14,Yes,1,3,3,1,36200,Yes
+1356,Operations,Representative,35,Female,Single,Life Sciences,17,4,7,17,No,3,2,4,1,46500,No
+1357,Sales-East,Associate,48,Female,Married,Human Resources,20,1,8,10,Yes,1,3,3,0,48600,No
+1358,R&D-Core,Senior Analyst,39,Male,Married,Human Resources,3,14,23,14,No,4,2,3,1,109200,No
+1359,R&D-Platform,Analyst,55,Male,Married,Life Sciences,4,10,15,9,No,3,3,3,0,74800,No
+1360,Sales-East,Senior Analyst,57,Female,Married,Human Resources,29,8,12,15,No,4,2,4,0,104500,Yes
+1361,R&D-Core,Associate,33,Male,Divorced,Marketing,10,1,1,12,Yes,3,4,4,2,51800,No
+1362,Sales-West,Analyst,49,Male,Divorced,Business,4,3,11,0,Yes,4,2,3,1,62300,Yes
+1363,Finance,Senior Analyst,40,Male,Single,Human Resources,3,3,10,8,No,3,1,3,0,91800,No
+1364,Operations,Senior Analyst,49,Female,Married,Other,27,1,10,23,No,1,4,3,1,72800,No
+1365,R&D-Core,Manager,35,Female,Divorced,Marketing,24,6,7,0,No,2,2,3,1,165200,No
+1366,Customer Support,Senior Analyst,34,Female,Married,Technical Degree,20,5,10,15,No,3,1,3,0,102200,No
+1367,Sales-East,Senior Analyst,21,Male,Single,Human Resources,22,3,3,14,No,4,4,3,0,86700,No
+1368,HR,Analyst,53,Male,Married,Marketing,23,8,12,17,No,1,2,3,1,61900,No
+1369,R&D-Platform,Analyst,41,Female,Single,Technical Degree,22,2,6,4,No,3,3,3,1,62900,No
+1370,Sales-West,Representative,36,Female,Married,Life Sciences,7,5,9,8,Yes,4,1,3,1,44200,Yes
+1371,Customer Support,Associate,41,Female,Divorced,Human Resources,25,2,5,9,Yes,2,4,3,0,60500,No
+1372,Customer Support,Analyst,59,Female,Single,Technical Degree,26,0,1,11,No,2,4,3,3,73300,No
+1373,Sales-East,Senior Analyst,53,Female,Divorced,Human Resources,7,6,6,9,Yes,2,2,3,2,95100,No
+1374,R&D-Core,Manager,55,Female,Married,Technical Degree,16,1,1,8,No,4,2,3,0,116500,No
+1375,Customer Support,Analyst,35,Male,Divorced,Human Resources,1,12,14,11,No,2,2,3,2,71500,No
+1376,Operations,Manager,46,Male,Divorced,Other,12,1,10,22,No,4,3,4,0,129600,No
+1377,HR,Manager,41,Male,Single,Other,17,2,6,11,No,4,3,3,2,114800,No
+1378,Customer Support,Analyst,53,Female,Married,Human Resources,6,1,7,13,Yes,3,4,4,1,65700,No
+1379,Operations,Manager,49,Female,Divorced,Human Resources,20,1,9,10,No,4,3,3,1,127600,No
+1380,Customer Support,Associate,42,Female,Single,Business,5,4,4,11,No,2,3,3,1,52600,No
+1381,Finance,Analyst,39,Male,Married,Technical Degree,13,4,10,8,No,1,3,4,1,58900,No
+1382,Sales-West,Analyst,49,Male,Single,Business,26,0,5,11,No,4,2,3,1,67900,No
+1383,R&D-Core,Representative,40,Male,Single,Life Sciences,21,0,8,20,No,4,1,3,1,34000,No
+1384,Finance,Manager,25,Male,Married,Life Sciences,29,21,23,5,No,4,3,4,1,166000,No
+1385,Operations,Senior Analyst,23,Male,Single,Life Sciences,2,3,8,15,Yes,2,2,3,1,91700,No
+1386,R&D-Core,Analyst,59,Male,Divorced,Marketing,13,6,14,0,No,1,4,3,0,71900,No
+1387,R&D-Core,Representative,31,Female,Single,Life Sciences,26,1,2,15,No,3,3,3,1,36100,No
+1388,Sales-East,Manager,52,Female,Married,Human Resources,21,1,4,14,Yes,3,3,3,0,137000,Yes
+1389,Finance,Analyst,25,Male,Married,Other,23,0,0,3,No,2,4,3,0,68400,No
+1390,R&D-Platform,Representative,26,Male,Married,Life Sciences,21,6,6,2,No,3,2,3,2,52400,Yes
+1391,Customer Support,Manager,22,Male,Divorced,Human Resources,10,1,1,12,No,3,4,3,1,121600,No
+1392,Sales-West,Associate,30,Male,Married,Life Sciences,15,8,14,13,Yes,3,4,3,0,63700,No
+1393,Finance,Associate,59,Female,Divorced,Business,3,2,5,26,No,4,2,3,1,32600,No
+1394,Finance,Senior Analyst,43,Male,Single,Business,14,4,13,5,No,4,2,4,3,116300,No
+1395,R&D-Platform,Analyst,21,Female,Married,Other,19,9,12,6,No,2,1,3,0,75700,No
+1396,Sales-West,Representative,50,Male,Single,Business,17,1,8,11,No,1,3,3,1,41400,Yes
+1397,R&D-Core,Analyst,57,Male,Divorced,Business,2,4,9,9,No,3,1,3,3,65000,No
+1398,Customer Support,Analyst,26,Female,Married,Life Sciences,11,16,25,12,Yes,1,4,3,0,94200,No
+1399,Sales-West,Analyst,42,Female,Single,Life Sciences,1,5,10,8,No,2,2,3,0,73900,No
+1400,Sales-East,Executive,58,Female,Divorced,Life Sciences,22,11,12,13,Yes,4,2,3,0,220900,Yes
+1401,R&D-Platform,Associate,33,Male,Married,Other,2,4,7,6,No,3,4,3,3,46700,No
+1402,Sales-West,Manager,34,Male,Married,Other,13,2,4,11,No,4,2,4,0,82500,No
+1403,Customer Support,Representative,45,Male,Single,Technical Degree,3,0,6,11,No,3,2,3,1,37200,Yes
+1404,Customer Support,Representative,59,Female,Divorced,Technical Degree,15,1,8,8,No,1,3,3,0,35200,No
+1405,Operations,Associate,57,Female,Married,Life Sciences,2,3,3,12,No,4,3,3,0,47500,Yes
+1406,Customer Support,Representative,50,Female,Divorced,Marketing,6,1,5,9,No,4,2,3,0,41200,No
+1407,Finance,Analyst,32,Male,Single,Life Sciences,3,2,10,0,No,1,3,3,0,66000,No
+1408,Sales-West,Senior Analyst,39,Female,Married,Business,29,3,4,2,No,4,2,3,0,94900,Yes
+1409,Customer Support,Analyst,27,Male,Married,Marketing,26,2,7,7,Yes,1,3,3,0,48900,Yes
+1410,Finance,Associate,35,Male,Married,Business,3,1,4,8,No,3,2,3,2,47100,No
+1411,Customer Support,Manager,58,Female,Married,Other,23,1,5,20,No,3,2,3,0,118800,No
+1412,Finance,Associate,24,Female,Divorced,Other,21,3,5,4,No,3,2,3,0,54700,No
+1413,Customer Support,Senior Analyst,25,Female,Divorced,Human Resources,14,1,10,9,Yes,4,2,3,1,82000,No
+1414,R&D-Core,Analyst,24,Male,Single,Life Sciences,20,0,7,6,Yes,2,3,3,1,51000,No
+1415,Finance,Senior Analyst,28,Male,Divorced,Business,11,11,16,9,No,4,3,4,1,109500,No
+1416,R&D-Platform,Senior Analyst,45,Female,Single,Business,10,2,9,13,No,4,1,3,1,109800,No
+1417,R&D-Core,Representative,35,Male,Single,Business,23,3,8,10,Yes,1,4,3,0,34000,Yes
+1418,R&D-Core,Associate,51,Male,Single,Technical Degree,29,1,8,7,No,1,4,3,3,53400,No
+1419,Sales-East,Manager,44,Male,Single,Human Resources,11,19,27,20,Yes,2,1,3,3,183900,No
+1420,R&D-Platform,Associate,56,Female,Married,Marketing,2,5,11,1,No,1,3,3,1,38900,No
+1421,R&D-Core,Representative,33,Female,Married,Life Sciences,15,1,1,11,No,1,3,3,2,38600,No
+1422,R&D-Core,Associate,35,Male,Married,Technical Degree,8,1,8,14,No,4,3,3,0,59300,No
+1423,Customer Support,Associate,22,Male,Married,Technical Degree,24,6,7,13,Yes,1,1,3,3,55800,No
+1424,Finance,Senior Analyst,57,Female,Divorced,Life Sciences,10,0,9,1,No,2,4,3,2,73800,Yes
+1425,Finance,Associate,53,Female,Married,Other,21,8,11,3,No,1,3,3,1,54200,No
+1426,Operations,Senior Analyst,32,Male,Married,Life Sciences,19,9,11,11,No,1,3,3,0,96100,No
+1427,Sales-West,Representative,30,Female,Divorced,Marketing,21,4,13,8,Yes,3,3,3,1,52600,Yes
+1428,R&D-Platform,Associate,57,Female,Single,Life Sciences,18,11,13,6,No,4,4,3,1,63700,No
+1429,Sales-East,Senior Analyst,41,Female,Divorced,Human Resources,3,1,10,6,No,4,2,3,1,62300,No
+1430,R&D-Core,Representative,56,Male,Single,Business,21,0,9,5,Yes,1,3,3,1,38400,Yes
+1431,Operations,Associate,33,Male,Single,Business,11,4,12,13,No,4,2,4,0,53000,No
+1432,Sales-East,Senior Analyst,27,Female,Divorced,Business,25,4,12,25,No,4,4,3,1,83100,No
+1433,Customer Support,Senior Analyst,43,Female,Single,Life Sciences,15,2,10,13,Yes,2,2,3,2,83200,No
+1434,Customer Support,Executive,54,Female,Married,Marketing,1,5,11,18,No,2,1,4,2,204500,No
+1435,R&D-Platform,Associate,25,Male,Married,Business,11,5,13,10,No,3,3,4,0,62300,Yes
+1436,Customer Support,Manager,48,Male,Single,Marketing,17,1,8,15,Yes,4,3,3,2,115300,Yes
+1437,R&D-Platform,Senior Analyst,22,Female,Married,Business,5,1,1,4,No,4,3,3,1,79300,Yes
+1438,R&D-Core,Associate,48,Female,Married,Business,12,0,6,12,Yes,3,3,3,0,50100,No
+1439,R&D-Platform,Senior Analyst,55,Male,Single,Life Sciences,23,5,14,4,Yes,3,3,3,2,89900,No
+1440,Sales-West,Senior Analyst,53,Female,Married,Technical Degree,20,2,5,24,No,3,2,3,0,78500,No
+1441,R&D-Core,Manager,44,Male,Married,Technical Degree,10,2,11,1,No,3,3,3,0,124700,No
+1442,R&D-Core,Manager,41,Female,Single,Technical Degree,16,1,6,8,No,2,4,3,2,135500,No
+1443,Operations,Analyst,26,Male,Married,Business,28,6,13,7,Yes,4,3,4,3,71800,No
+1444,R&D-Core,Manager,40,Male,Married,Other,11,0,2,4,No,3,4,3,0,114200,No
+1445,Sales-West,Representative,57,Female,Single,Life Sciences,19,10,14,8,Yes,2,3,3,1,53200,No
+1446,Operations,Executive,35,Male,Divorced,Human Resources,1,6,6,13,Yes,4,2,3,0,247400,No
+1447,Sales-East,Senior Analyst,31,Male,Married,Life Sciences,2,2,8,19,Yes,4,4,3,1,72400,No
+1448,Operations,Manager,54,Male,Single,Human Resources,10,1,4,8,No,2,3,4,2,105900,No
+1449,Customer Support,Representative,41,Male,Single,Business,16,1,6,11,Yes,3,1,3,2,31900,Yes
+1450,Finance,Associate,56,Male,Single,Human Resources,13,0,8,17,No,3,3,3,1,43700,No
+1451,R&D-Core,Manager,22,Male,Single,Life Sciences,1,22,29,12,No,4,3,3,1,202600,No
+1452,Sales-West,Manager,27,Male,Married,Life Sciences,10,5,6,2,No,1,4,4,0,136200,No
+1453,Sales-East,Manager,47,Male,Single,Other,16,16,21,10,No,1,4,3,0,178600,No
+1454,Sales-East,Associate,51,Female,Single,Technical Degree,11,1,1,15,Yes,4,3,3,0,48700,No
+1455,R&D-Core,Associate,59,Female,Married,Human Resources,2,4,9,9,Yes,4,2,3,0,42400,No
+1456,R&D-Core,Analyst,31,Male,Single,Business,19,3,5,8,No,2,1,3,0,48000,No
+1457,Operations,Analyst,31,Male,Single,Life Sciences,7,1,5,11,No,3,4,3,1,63800,No
+1458,R&D-Platform,Analyst,28,Female,Single,Human Resources,10,6,13,6,Yes,4,3,3,1,81200,No
+1459,Operations,Analyst,50,Male,Single,Other,2,7,9,16,Yes,3,4,4,0,74100,No
+1460,Finance,Manager,28,Male,Single,Other,25,3,11,4,Yes,4,3,3,0,123900,No
+1461,Sales-East,Associate,56,Male,Married,Business,1,0,0,13,No,2,3,3,1,47900,No
+1462,HR,Associate,43,Female,Divorced,Marketing,11,14,16,6,No,3,1,3,2,61200,No
+1463,Sales-East,Associate,47,Male,Divorced,Human Resources,15,1,8,9,Yes,2,3,3,1,38900,Yes
+1464,Sales-East,Senior Analyst,31,Male,Married,Technical Degree,13,5,14,14,Yes,4,3,4,1,93000,Yes
+1465,Operations,Senior Analyst,49,Female,Married,Life Sciences,8,3,5,14,Yes,2,2,3,0,100900,Yes
+1466,R&D-Core,Representative,30,Male,Married,Marketing,13,3,7,1,No,4,1,4,1,39500,Yes
+1467,Sales-West,Representative,27,Male,Married,Human Resources,13,1,2,15,No,3,4,3,3,38900,No
+1468,Sales-East,Associate,24,Male,Divorced,Marketing,27,2,8,10,No,2,2,3,0,44700,Yes
+1469,Finance,Associate,26,Male,Married,Marketing,17,1,1,0,No,3,3,3,0,49300,No
+1470,R&D-Platform,Analyst,33,Male,Married,Life Sciences,18,2,8,9,No,1,3,3,2,74400,No
